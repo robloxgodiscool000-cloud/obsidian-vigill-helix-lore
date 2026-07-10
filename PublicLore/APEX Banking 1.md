@@ -1,13 +1,3 @@
----
-aliases:
-  - APEX Finance
-tags:
-  - 
-  - 
-  - 
-  - 
-status: drafting
----
 # APEX Banking
 
 > [!summary] Overview
