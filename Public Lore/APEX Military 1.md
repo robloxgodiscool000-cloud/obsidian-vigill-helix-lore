@@ -23,6 +23,6 @@ Because their numbers are quite small, APEX heavily supplements its forces with 
 
 ## Operational Divisions
 To efficiently police the safe zones and conquer the Wastelands, the military is divided into highly specialized branches:
-* **[Wall Infantry](Wall%20Infantry%201.md):** The largest branch, tasked with the gruelling, constant defence of the massive atmospheric scrubbers that protect the Remaining Nations that border the Red Wastelands. They repel feral mutant swarms and raider incursions daily.
-* [Tactical Response Brigade (TRB)](Tactical%20Response%20Brigade%20(TRB)%201.md): Elite, heavily armed strike teams deployed directly into the Red Wastelands. They act as the vanguard for NOVA research expeditions, securing high-value biological samples and terminating highly dangerous Mist anomalies.
+* **[[Wall Infantry 1.md|Wall Infantry]]:** The largest branch, tasked with the gruelling, constant defence of the massive atmospheric scrubbers that protect the Remaining Nations that border the Red Wastelands. They repel feral mutant swarms and raider incursions daily.
+* [[TRB)](Tactical Response Brigade (TRB|Tactical Response Brigade (TRB)]]%201.md): Elite, heavily armed strike teams deployed directly into the Red Wastelands. They act as the vanguard for NOVA research expeditions, securing high-value biological samples and terminating highly dangerous Mist anomalies.
 ---
