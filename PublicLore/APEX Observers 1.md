@@ -18,7 +18,7 @@ To ensure NOVA Facilities have a constant stream of fresh, new test subjects and
 
 Unlike standard corporate drafting, the Observer program casts a wide net across the [Remaining Nations](Remaining%20Nations%201.md), acting as an unconventional entry point into the coveted StellarGen corporate ecosystem. It bypasses the traditional, decades-long educational and bureaucratic requirements, making it highly attractive to a diverse demographic.
 
-## The Caveat of Contribution
+## Contribution
 While Observers handle many of the day-to-day supportive tasks around the Facility—often assisting the [Technical & Maintenance Department](Technical%20&%20Maintenance%20Department.md) or shadowing researchers—their primary unique function is their availability to the [Research & Medical Department](Research%20&%20Medical%20Department.md). 
 
 Participation as a test subject is framed as "contributing to the grand corporate directive." This can range from the mundane to the hazardous:
