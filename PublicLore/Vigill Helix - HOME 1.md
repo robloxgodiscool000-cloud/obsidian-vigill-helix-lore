@@ -24,7 +24,7 @@ After the war ended, StellarGen transitioned into a world-spanning corporate heg
 * Providing the remaining global populations with refuge and a normal life.
 
 ## Current Day: 2085
-Today, in 2085, [StellarGen](StellarGen%201.md) effectively controls the global economy, law, and the survival of all sentient beings on Earth. Because the corporation employs both humans and [Mutants](Mutants.md), it commands a massive, highly diverse global workforce.
+Today, in 2085, [StellarGen](StellarGen%201.md) effectively controls the global economy, law, and the survival of all sentient beings on Earth. Because the corporation employs both humans and [Mutants](Mutants%201.md), it commands a massive, highly diverse global workforce.
 
 ---
 **Related Maps of Content:**
