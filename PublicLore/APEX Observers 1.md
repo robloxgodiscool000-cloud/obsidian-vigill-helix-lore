@@ -10,15 +10,7 @@ tags:
   - 
 status: drafting
 ---
----
-aliases: [Observers, APEX Contractors, Test Subjects, Facility Inductees]
-tags:
-  - #lore/personnel
-  - #stellargen-apex
-  - #stellargen-nova
-  - #research
-status: drafting
----
+
 
 # APEX Observers
 
