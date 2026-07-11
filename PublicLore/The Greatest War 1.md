@@ -27,6 +27,6 @@ The climax of The Greatest War was not a peace treaty, but an apocalypse. After 
 ## The Aftermath
 The deployment of the bioweapons completely shattered the infrastructure of the Old World. Global governments, already crippled by years of total war, collapsed under the catastrophic weight of the Mist. 
 
-From the ashes of these fractured nations, [StellarGen](StellarGen%201.md) stepped into the power vacuum. By monopolising the only viable containment technology and offering refuge to the survivors, the corporation transitioned from a wartime contractor to an undisputed major player in the world. Today, the only factions like the Rose Accord (representing the Remaining Nations) and the [AWOL Corps](AWOL%20Corps.md) exist outside their influence.
+From the ashes of these fractured nations, [StellarGen](StellarGen%201.md) stepped into the power vacuum. By monopolising the only viable containment technology and offering refuge to the survivors, the corporation transitioned from a wartime contractor to an undisputed major player in the world. Today, the only factions like the Rose Accord (representing the Remaining Nations) and the [AWOL Corps](AWOL%20Corps%201.md) exist outside their influence.
 
 ---
