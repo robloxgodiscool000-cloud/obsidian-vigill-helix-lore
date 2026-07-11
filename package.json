@@ -1,0 +1,8 @@
+{
+  "name": "publiclore-wikijs-sync",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}
