@@ -28,8 +28,8 @@ Today, in 2085, [StellarGen](StellarGen%201.md) effectively controls the global 
 
 ---
 **Related Maps of Content:**
-- [StellarGen](StellarGen.md)
-- [Outside World](Outside%20World.md)
-- [Sanguine Mist](Sanguine%20Mist.md)
+- [StellarGen](StellarGen%201.md)
+- [Outside World](Outside%20World%201.md)
+- [Sanguine Mist](Sanguine%20Mist%201.md)
 - [Story Lines](Story%20Lines.md)
 - [Observers](Observers)
