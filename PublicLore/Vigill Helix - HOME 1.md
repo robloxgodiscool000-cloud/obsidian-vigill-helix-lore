@@ -31,4 +31,4 @@ Today, in 2085, [StellarGen](StellarGen%201.md) effectively controls the global 
 - [StellarGen](StellarGen%201.md)
 - [Outside World](Outside%20World%201.md)
 - [Sanguine Mist](Sanguine%20Mist%201.md)
-- [Observers](Observers%201)
+- [Observers](Observers%201.md)
