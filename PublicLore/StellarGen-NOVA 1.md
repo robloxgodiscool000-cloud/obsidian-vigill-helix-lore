@@ -13,7 +13,7 @@ status: drafting
 # StellarGen-NOVA
 
 > [!summary] Overview
-> **StellarGen-NOVA** is the clandestine, esoteric, and highly experimental research division of the StellarGen monopoly. While its sister branch, [[StellarGen-APEX]], rules through brute military force and economic strangleholds, NOVA is tasked with solving the scientific impossibilities of the apocalypse. They are the minds of the corporation, entirely dedicated to understanding, weaponizing, and ultimately eradicating [[The Sanguine Mist]].
+> **StellarGen-NOVA** is the clandestine, esoteric, and highly experimental research division of the StellarGen monopoly. While its sister branch, StellarGen-APEX], rules through brute military force and economic strangleholds, NOVA is tasked with solving the scientific impossibilities of the apocalypse. They are the minds of the corporation, entirely dedicated to understanding, weaponizing, and ultimately eradicating [[The Sanguine Mist]].
 
 ## The Primary Directive
 StellarGen-NOVA’s ultimate, overarching goal is the complete chemical and biological neutralization of the Sanguine Mist. However, their methods to achieve this are completely devoid of standard medical ethics. 
