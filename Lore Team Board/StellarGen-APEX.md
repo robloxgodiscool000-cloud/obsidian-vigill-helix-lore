@@ -1,8 +1,6 @@
 ---
 aliases:
   - APEX
-  - The APEX Triad
-  - The StellarGen Sword
 tags:
   - 
   - 
