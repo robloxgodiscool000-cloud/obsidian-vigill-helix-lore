@@ -47,7 +47,7 @@ APEX is the commercial, industrial, and military face of the corporation. It ope
 * APEX owns and operates the subsidiary companies that control the safe zones' energy grids, water filtration networks, heavy manufacturing, and atmospheric wall defence systems. 
 * APEX Military, whilst acting as a major mercenary branch that is hired by various Remaining Nations to fight in petty disputes, also doubles as the ultimate iron fist of the Corporation. They respond to critical attacks and emergencies on NOVA Sites when the respective Security Department is overwhelmed.
 
-### 2. [StellarGen-NOVA](StellarGen-NOVA.md)
+### 2. [StellarGen-NOVA](StellarGen-NOVA%201.md)
 NOVA is the primarily non-profit, purely scientific branch of the corporation. If APEX is the muscle and money, NOVA is the mind. Its structure is profoundly similar to a governmental agency. StellarGen-NOVA provides its Research personnel with the circumstances and powers to pursue their own research in order to benefit humanity within the corporate mandated limits.
 * NOVA is tasked with the collection, containment, categorisation, and experimentation of all anomalies born from the Mist, including The Blood Eagle Strain and unique mutant biologies. 
 * Operating out of Research Sites across the globe, NOVA is exempt from standard commercial pressures. It is all driven by a singular directive: find a permanent cure to rewrite the planet back to its pre-war state.
