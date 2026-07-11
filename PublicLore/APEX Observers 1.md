@@ -14,7 +14,7 @@ status: drafting
 > **APEX Observers**, commonly referred to simply as **Observers**, are individuals who sign an accelerated, open-ended contract under [StellarGen-APEX](StellarGen-APEX%201.md) to be deployed to a NOVA Facility. While this serves as a highly sought-after employment opportunity offering safety, high-quality living conditions, and upward mobility, it comes with a specific contractual caveat: Observers consent to being utilized as participants and test subjects in clinical and operational trials. 
 
 ## The Recruitment Pipeline
-To ensure NOVA Facilities have a constant stream of fresh, new test subjects and prospective NOVA Employees, [StellarGen-APEX](StellarGen-APEX.md) acts as a filter and retriever. 
+To ensure NOVA Facilities have a constant stream of fresh, new test subjects and prospective NOVA Employees, [StellarGen-APEX](StellarGen-APEX%201.md) acts as a filter and retriever. 
 
 Unlike standard corporate drafting, the Observer program casts a wide net across the [Remaining Nations](Remaining%20Nations.md), acting as an unconventional entry point into the coveted StellarGen corporate ecosystem. It bypasses the traditional, decades-long educational and bureaucratic requirements, making it highly attractive to a diverse demographic.
 
