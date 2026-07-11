@@ -10,7 +10,7 @@ status: drafting
 # APEX Observers
 
 > [!summary] Overview
-> **APEX Observers**, commonly referred to simply as **Observers**, are individuals who willingly sign a draconian, lifetime contract under [StellarGen-APEX](StellarGen-APEX.md) to be deployed to a NOVA Facility. Ostensibly presented as an employment opportunity offering safety, shelter, and steady meals, the contract carries a lethal, buried caveat: the corporation retains the absolute right to use them as expendable biological test subjects. 
+> **APEX Observers**, commonly referred to simply as **Observers**, are individuals who willingly sign a draconian, lifetime contract under [StellarGen-APEX](StellarGen-APEX.md) to be deployed to a NOVA Facility. Ostensibly presented as an employment opportunity offering safety, shelter, and steady meals, the contract carries a caveat: the corporation retains the absolute right to use them as expendable biological test subjects. 
 
 ## The Recruitment Pipeline
 To ensure NOVA Facilities have a constant stream of fresh, new test subjects and prospective NOVA Employees, [StellarGen-APEX](StellarGen-APEX.md) acts as a filter and retriever. 
