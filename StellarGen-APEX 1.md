@@ -1,4 +1,3 @@
---- aliases: [TRB, The Crazies, APEX Special Forces, The Static] tags: - #lore/faction - #stellargen-apex - #apex-military - #cybernetics - #special-forces status: drafting ---
 # StellarGen-APEX
 
 > [!summary] Overview
