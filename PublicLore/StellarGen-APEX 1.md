@@ -8,7 +8,7 @@
 
 ### 1. APEX Military
 Functioning as both a private security force and a cutting-edge defence contractor, APEX Military possesses a technological supremacy that rivals, and often dwarfs, the combined armed forces of the Rose Accord. 
-* **Technological Superiority:** Operating on a model similar to pre-war mega-contractors, they hold exclusive patents on the world's most advanced weaponry. Their arsenals boast heavy mechanisation, next-generation tactical armour, and cyber-tech capable of overwriting critical infrastructure.
+*  Operating on a model similar to pre-war mega-contractors, they hold exclusive patents on the world's most advanced weaponry. Their arsenals boast heavy mechanisation, next-generation tactical armour, and cyber-tech capable of overwriting critical infrastructure.
 * Officially, they are deployed to defend corporate assets, maintain the atmospheric scrubbers, and escort NOVA research teams. Unofficially, they act as an occupying force, projecting StellarGen's hard power across the globe to crush dissent and secure high-value resources. 
 
 ### 2. APEX Legal & Manufacturing
