@@ -32,4 +32,4 @@ Today, in 2085, [StellarGen](StellarGen.md) effectively controls the global econ
 - [Outside World](Outside%20World.md)
 - [Sanguine Mist](Sanguine%20Mist.md)
 - [Story Lines](Story%20Lines.md)
-- [Observers]
+- [Observers](Observers)
