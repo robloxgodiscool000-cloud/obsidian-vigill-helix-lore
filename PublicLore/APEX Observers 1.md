@@ -10,8 +10,6 @@ tags:
   - 
 status: drafting
 ---
-
-
 # APEX Observers
 
 > [!summary] Overview
