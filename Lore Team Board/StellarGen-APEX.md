@@ -13,7 +13,7 @@ status: drafting
 # StellarGen-APEX
 
 > [!summary] Overview
-> IfStellarGen-NOVA is the mind of the corporation, **StellarGen-APEX** is its muscle, its shield, and its wallet. Operating as the commercial, industrial, and militant face of the global hegemony, APEX is a ruthless, hyper-capitalistic engine. It is divided into three primary subsidiary branches that collectively monopolise the post-war world: Military, Legal & Manufacturing, and Banking.
+> StellarGen-NOVA is the mind of the corporation, **StellarGen-APEX** is its muscle, its shield, and its wallet. Operating as the commercial, industrial, and militant face of the global hegemony, APEX is a ruthless, hyper-capitalistic engine. It is divided into three primary subsidiary branches that collectively monopolise the post-war world: Military, Legal & Manufacturing, and Banking.
 > Many personnel found in NOVA Sites tend to be sourced from APEX due to their experience and the stifling, high-octane environment of APEX.
 
 ## The Corporate Triad
