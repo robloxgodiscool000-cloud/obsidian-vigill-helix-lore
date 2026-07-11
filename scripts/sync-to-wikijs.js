@@ -194,6 +194,47 @@ function convertWikilinks(content, linkMap, filePath) {
   });
 }
 
+// Converts standard markdown links that point at a relative .md file path
+// (Obsidian's other link format, e.g. [Text](Some%20Note.md#Heading)) into
+// links pointing at the resolved Wiki.js page path. Links that are already
+// full URLs (http:, https:, mailto:, etc.) or don't target a .md file are
+// left untouched.
+function convertMarkdownFileLinks(content, linkMap, filePath) {
+  return content.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, label, rawUrl) => {
+    if (/^[a-z][a-z0-9+.-]*:/i.test(rawUrl)) return match; // has a URL scheme already - leave alone
+
+    const [urlPath, hash] = rawUrl.split('#');
+    if (!/\.md$/i.test(urlPath)) return match; // not a markdown file link - leave alone
+
+    let decodedPath;
+    try {
+      decodedPath = decodeURIComponent(urlPath);
+    } catch {
+      decodedPath = urlPath;
+    }
+    decodedPath = decodedPath.replace(/^\.?\//, '').replace(/\.md$/i, '');
+
+    const fullKey = decodedPath.toLowerCase();
+    const baseKey = decodedPath.split('/').pop().toLowerCase();
+    const target = linkMap.get(fullKey) || linkMap.get(baseKey);
+
+    if (!target) {
+      linkWarnings.push(`  [${label}](${rawUrl}) in ${filePath} (target file not found among synced files)`);
+      return label;
+    }
+
+    let url = `/${target}`;
+    if (hash) {
+      try {
+        url += `#${slugify(decodeURIComponent(hash))}`;
+      } catch {
+        url += `#${slugify(hash)}`;
+      }
+    }
+    return `[${label}](${url})`;
+  });
+}
+
 // ---------- Sync ----------
 
 async function upsertPage(filePath, linkMap) {
@@ -204,6 +245,7 @@ async function upsertPage(filePath, linkMap) {
   let body = parsed.content;
   body = convertCallouts(body);
   body = convertWikilinks(body, linkMap, filePath);
+  body = convertMarkdownFileLinks(body, linkMap, filePath);
 
   const pagePath = toPagePath(filePath);
   const fallbackTitle = path.basename(filePath, '.md');
