@@ -27,8 +27,3 @@ Participation as a test subject is framed as "contributing to the grand corporat
 It is a high-risk, high-reward arrangement. Those who show exceptional resilience, intellect, or adaptability during these trials are frequently promoted out of the standard Observer pool, or remain as NOVA-employed Observer.
 
 ---
-**Related Maps of Content:**
-* [StellarGen-APEX](StellarGen-APEX.md)
-* [StellarGen-NOVA](StellarGen-NOVA.md)
-* [Research & Medical Department](Research%20&%20Medical%20Department.md)
-* [Remaining Nations](Remaining%20Nations.md)
