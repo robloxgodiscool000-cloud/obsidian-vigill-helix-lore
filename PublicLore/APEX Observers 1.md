@@ -13,7 +13,7 @@ status: drafting
 > **APEX Observers**, commonly referred to simply as **Observers**, are individuals who willingly sign a draconian, lifetime contract under [StellarGen-APEX](StellarGen-APEX.md) to be deployed to a NOVA Facility. Ostensibly presented as an employment opportunity offering safety, shelter, and steady meals, the contract carries a caveat: the corporation retains the absolute right to use them as expendable biological test subjects. 
 
 ## The Recruitment Pipeline
-To ensure NOVA Facilities have a constant stream of fresh, new test subjects and prospective NOVA Employees, [StellarGen-APEX](StellarGen-APEX.md) acts as a filter and retriever. 
+To ensure NOVA Facilities have a constant stream of fresh, new test subjects and prospective NOVA Employees, [StellarGen-APEX](StellarGen-APEX%201.md) acts as a filter and retriever. 
 
 APEX recruiters frequently target the most vulnerable populations living within the [Remaining Nations](Remaining%20Nations.md). They prey on citizens crushed by [APEX Banking](StellarGen-APEX.md) debt, refugees seeking asylum from the fringes of [The Sanguine Wastelands](The%20Sanguine%20Wastelands.md), and dissidents given the choice between imprisonment by the [Corporate Security Department](Corporate%20Security%20Department.md) or a "corporate contribution contract." 
 
