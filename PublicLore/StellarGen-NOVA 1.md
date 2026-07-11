@@ -10,7 +10,6 @@ tags:
   - 
 status: drafting
 ---
-
 # StellarGen-NOVA
 
 > [!summary] Overview
