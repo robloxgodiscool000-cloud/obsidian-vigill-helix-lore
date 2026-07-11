@@ -16,7 +16,7 @@ status: drafting
 ## The Recruitment Pipeline
 To ensure NOVA Facilities have a constant stream of fresh, new test subjects and prospective NOVA Employees, [StellarGen-APEX](StellarGen-APEX%201.md) acts as a filter and retriever. 
 
-Unlike standard corporate drafting, the Observer program casts a wide net across the [Remaining Nations](Remaining%20Nations.md), acting as an unconventional entry point into the coveted StellarGen corporate ecosystem. It bypasses the traditional, decades-long educational and bureaucratic requirements, making it highly attractive to a diverse demographic.
+Unlike standard corporate drafting, the Observer program casts a wide net across the [Remaining Nations](Remaining%20Nations%201.md), acting as an unconventional entry point into the coveted StellarGen corporate ecosystem. It bypasses the traditional, decades-long educational and bureaucratic requirements, making it highly attractive to a diverse demographic.
 
 ## A Tapestry of Motivations
 Observers are not a monolith; they arrive at the Facility for vastly different reasons, representing a cross-section of surviving humanity. Their motivations often dictate how they approach their tenure:
