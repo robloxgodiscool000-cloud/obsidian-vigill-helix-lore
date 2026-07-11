@@ -10,3 +10,28 @@ tags:
   - 
 status: drafting
 ---
+
+# StellarGen-NOVA
+
+> [!summary] Overview
+> **StellarGen-NOVA** is the clandestine, esoteric, and highly experimental research division of the [StellarGen](StellarGen.md) monopoly. While its sister branch, [StellarGen-APEX](StellarGen-APEX.md), rules through brute military force and economic strangleholds, NOVA is tasked with solving the scientific impossibilities of the apocalypse. They are the minds of the corporation, entirely dedicated to understanding, weaponizing, and ultimately eradicating [The Sanguine Mist](The%20Sanguine%20Mist.md).
+
+## The Primary Directive
+StellarGen-NOVA’s ultimate, overarching goal is the complete chemical and biological neutralization of the Sanguine Mist. However, their methods to achieve this are completely devoid of standard medical ethics. 
+
+To find a cure, NOVA scientists dive deeply into extreme biological deviation. They heavily research genetic manipulation, localized atmospheric scrubbing technologies, and bio-crystalline armor harvested from the [The Sanguine Wastelands](The%20Sanguine%20Wastelands.md). They operate under a corporate mandate that allows for any loss of life if it yields actionable data.
+
+## The NOVA Sites
+Unlike APEX, which operates vast, highly visible public manufacturing plants and towering walls, NOVA operates in the shadows. Their research is conducted in localized, heavily fortified black sites scattered across the globe—often buried underground, hidden in the deepest sectors of the Safe Zones, or dangerously built on the bleeding edge of [The Sanguine Wastelands](The%20Sanguine%20Wastelands.md).
+
+These Facilities (managed by their own [local Directorates](The%20Directorate.md)) house extreme containment wings. Inside, NOVA houses:
+* Captured, apex-level [Mutants](Mutants.md) for live vivisection and behavioral study.
+* "Inducted" cultists of [The Red Butchers](The%20Red%20Butchers.md) to study the Mist's psychological and mutagenic infection rates.
+* Anomalous artifacts, biological weapons, and hyper-classified bio-tech reverse-engineered from [New Pleroma](New%20Pleroma.md) wreckage.
+
+---
+**Related Maps of Content:**
+* [StellarGen](StellarGen.md)
+* [StellarGen-APEX](StellarGen-APEX.md)
+* [The Sanguine Mist](The%20Sanguine%20Mist.md)
+* [NOVA Site-01 "Headquarters"](NOVA%20Site-01%20%22Headquarters%22.md)
