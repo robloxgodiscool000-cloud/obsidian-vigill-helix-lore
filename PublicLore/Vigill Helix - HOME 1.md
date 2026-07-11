@@ -12,7 +12,7 @@ status: drafting
 # World Overview
 
 > [!summary] Core Concept
-> A post-apocalyptic corporate hegemony where a single megacorporation, [StellarGen](StellarGen.md), controls the remnants of humanity and [Mutants](Mutants%201.md) following a devastating bioweapon disaster known as the [Sanguine Mist](Sanguine%20Mist.md).
+> A post-apocalyptic corporate hegemony where a single megacorporation, [StellarGen](StellarGen.md), controls the remnants of humanity and [Mutants](Mutants%201.md) following a devastating bioweapon disaster known as the [Sanguine Mist](Sanguine%20Mist%201.md).
 
 ## History and The Fall
 [The Greatest War](The%20Greatest%20War%201.md) ended with the deployment of the [Sanguine Mist](Sanguine%20Mist.md), a disastrous, self-replicating collection of swirling bioweapons that killed and mutated millions. As global nations and governments collapsed under the weight of the disaster, the megacorporation [StellarGen](StellarGen.md) stepped into the power vacuum to offer a solution. 
