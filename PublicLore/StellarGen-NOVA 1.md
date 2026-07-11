@@ -23,7 +23,7 @@ To find a cure, NOVA uses all means and fields of research to attempt to find a 
 ## The NOVA Facilities
 Unlike APEX, which operates vast, highly visible public manufacturing plants and towering walls, NOVA operates in the shadows. Their research is conducted in localised, heavily fortified black sites scattered across the globe, often buried underground, hidden in the deepest, or dangerously built on the bleeding edge of [The Sanguine Wastelands](The%20Sanguine%20Wastelands.md).
 
-## [APEX Observers 1](APEX Observers1)
+## [APEX Observers 1](APEX%20Observers%201)
 
 ---
 **Related Maps of Content:**
