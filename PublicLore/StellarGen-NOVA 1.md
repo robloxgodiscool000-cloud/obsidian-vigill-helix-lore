@@ -18,7 +18,7 @@ status: drafting
 ## The Primary Directive
 StellarGen-NOVA’s ultimate, overarching goal is the complete chemical and biological neutralisation of the Sanguine Mist.
 
-To find a cure, NOVA uses all means and fields of research to attempt to find a cure to [The Sanguine Wastelands](The%20Sanguine%20Wastelands%201.md). They operate under a corporate mandate that allows for any loss of life if it yields actionable data.
+To find a cure, NOVA uses all means and fields of research to attempt to find a cure to [The Sanguine Wastelands](The%20Sanguine%20Wastelands%201.md).
 
 ## The NOVA Facilities
 Unlike APEX, which operates vast, highly visible public manufacturing plants and towering walls, NOVA operates in the shadows. Their research is conducted in localized, heavily fortified black sites scattered across the globe—often buried underground, hidden in the deepest sectors of the Safe Zones, or dangerously built on the bleeding edge of [The Sanguine Wastelands](The%20Sanguine%20Wastelands.md).
