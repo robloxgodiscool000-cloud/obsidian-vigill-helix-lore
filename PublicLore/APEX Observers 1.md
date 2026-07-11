@@ -1,13 +1,14 @@
 ---
-aliases: [Observers, APEX Contractors, Facility Inductees, Trial Employees]
+aliases:
+  - Observers
+  - Facility Inductees
 tags:
-  - #lore/personnel
-  - #stellargen-apex
-  - #stellargen-nova
-  - #research
+  - 
+  - 
+  - 
+  - 
 status: drafting
 ---
-
 # APEX Observers
 
 > [!summary] Overview
