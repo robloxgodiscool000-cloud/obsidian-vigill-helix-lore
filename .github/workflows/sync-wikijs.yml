@@ -1,0 +1,27 @@
+name: Sync PublicLore to Wiki.js
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'PublicLore/**'
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab too
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync markdown files to Wiki.js
+        env:
+          WIKIJS_URL: ${{ secrets.WIKIJS_URL }}
+          WIKIJS_TOKEN: ${{ secrets.WIKIJS_TOKEN }}
+          SOURCE_DIR: PublicLore
+        run: node scripts/sync-to-wikijs.js
