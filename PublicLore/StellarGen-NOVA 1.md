@@ -23,10 +23,7 @@ To find a cure, NOVA uses all means and fields of research to attempt to find a 
 ## The NOVA Facilities
 Unlike APEX, which operates vast, highly visible public manufacturing plants and towering walls, NOVA operates in the shadows. Their research is conducted in localised, heavily fortified black sites scattered across the globe, often buried underground, hidden in the deepest, or dangerously built on the bleeding edge of [The Sanguine Wastelands](The%20Sanguine%20Wastelands.md).
 
-These Facilities (managed by their own [local Directorates](The%20Directorate.md)) house extreme containment wings. Inside, NOVA houses:
-* Captured, apex-level [Mutants](Mutants.md) for live vivisection and behavioral study.
-* "Inducted" cultists of [The Red Butchers](The%20Red%20Butchers.md) to study the Mist's psychological and mutagenic infection rates.
-* Anomalous artifacts, biological weapons, and hyper-classified bio-tech reverse-engineered from [New Pleroma](New%20Pleroma.md) wreckage.
+#
 
 ---
 **Related Maps of Content:**
