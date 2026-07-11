@@ -26,7 +26,7 @@ Participation as a test subject is framed as "contributing to the grand corporat
 * **Environmental Testing:** Wearing prototype hazard suits in localized Mist environments to test scrubber efficiency.
 * **Behavioral Studies:** Participating in psychological evaluations or acting as neutral baselines when testing the anomalous properties of recovered artifacts.
 
-It is a high-risk, high-reward arrangement. Those who show exceptional resilience, intellect, or adaptability during these trials are frequently promoted out of the 
+It is a high-risk, high-reward arrangement. Those who show exceptional resilience, intellect, or adaptability during these trials are frequently promoted out of the standard Observer pool, or remain as NOVA-employed Observer.
 
 ---
 **Related Maps of Content:**
