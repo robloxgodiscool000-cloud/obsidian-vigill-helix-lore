@@ -42,7 +42,7 @@ StellarGen establishes hovering control over major metropolitan hubs like Berlin
 ---
 ## The Two Branches
 
-### 1. [StellarGen-APEX](StellarGen-APEX.md)
+### 1. [StellarGen-APEX](StellarGen-APEX%201.md)
 APEX is the commercial, industrial, and military face of the corporation. It operates as a ruthless, highly efficient capitalistic machine designed to fund the rest of StellarGen's global infrastructure.
 * APEX owns and operates the subsidiary companies that control the safe zones' energy grids, water filtration networks, heavy manufacturing, and atmospheric wall defence systems. 
 * APEX Military, whilst acting as a major mercenary branch that is hired by various Remaining Nations to fight in petty disputes, also doubles as the ultimate iron fist of the Corporation. They respond to critical attacks and emergencies on NOVA Sites when the respective Security Department is overwhelmed.
