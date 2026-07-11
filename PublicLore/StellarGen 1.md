@@ -12,7 +12,7 @@ status: drafting
 # StellarGen
 
 > [!summary] Overview
-> **StellarGen** is the undisputed corporate hegemony of the post-war era. While officially classified as a transnational megacorporation, it functions on a geopolitical scale as a technocratic global political player. Rather than pursuing malicious dominion, StellarGen operates under a clinical, absolute mandate: the preservation of human life and culture, the containment of environmental hazards that would threaten it, and the total eradication of the [Sanguine Mist](Sanguine%20Mist.md).
+> **StellarGen** is the undisputed corporate hegemony of the post-war era. While officially classified as a transnational megacorporation, it functions on a geopolitical scale as a technocratic global political player. Rather than pursuing malicious dominion, StellarGen operates under a clinical, absolute mandate: the preservation of human life and culture, the containment of environmental hazards that would threaten it, and the total eradication of the [Sanguine Mist](Sanguine%20Mist%201.md).
 
 ## Corporate Motives
 StellarGen does not view itself as an evil empire, nor does it operate purely for corporate greed. Instead, its upper echelon views the corporation as the *sole competent steward of a dying planet*. Their ideology is built on absolute, unyielding utilitarianism. 
