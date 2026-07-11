@@ -7,7 +7,6 @@ tags:
   - #research
 status: drafting
 ---
-
 # APEX Observers
 
 > [!summary] Overview
