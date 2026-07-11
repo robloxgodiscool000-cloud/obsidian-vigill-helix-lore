@@ -22,10 +22,7 @@ Unlike standard corporate drafting, the Observer program casts a wide net across
 ## Contribution
 While Observers act as standard personnel on-site, their primary unique function is their availability to the [Research & Medical Department (R&MD)](Research%20&%20Medical%20Department%20(R&MD)%201.md). 
 
-Participation as a test subject is framed as "contributing to the grand corporate directive." This can range from the mundane to the hazardous:
-* **Clinical Trials:** Testing new, cutting-edge pharmaceuticals, cybernetic neural-link baseline calibrations, or experimental nutritional supplements.
-* **Environmental Testing:** Wearing prototype hazard suits in localized Mist environments to test scrubber efficiency.
-* **Behavioral Studies:** Participating in psychological evaluations or acting as neutral baselines when testing the anomalous properties of recovered artifacts.
+Participation as a test subject is framed as "contributing to the grand corporate directive." This can range from the mundane to the hazardous.
 
 It is a high-risk, high-reward arrangement. Those who show exceptional resilience, intellect, or adaptability during these trials are frequently promoted out of the standard Observer pool, or remain as NOVA-employed Observer.
 
