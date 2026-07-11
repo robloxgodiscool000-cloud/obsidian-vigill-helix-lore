@@ -9,7 +9,7 @@ status: drafting
 # The Greatest War
 
 > [!summary] Overview
-> A devastating global conflict that irreparably altered the course of human history. The war culminated in the deployments of bioweapons which make up the [Sanguine Mist](Sanguine%20Mist.md), triggering a global apocalypse, the collapse of many nations, and the rise of [StellarGen](StellarGen.md) as a corporate hegemony.
+> A devastating global conflict that irreparably altered the course of human history. The war culminated in the deployments of bioweapons which make up the [Sanguine Mist](Sanguine%20Mist%201.md), triggering a global apocalypse, the collapse of many nations, and the rise of [StellarGen](StellarGen.md) as a corporate hegemony.
 
 ## The Catalyst
 Climate collapse and ecosystem failures triggered global shortages of freshwater, arable land, and rare-earth minerals required for advanced technology. Proxy conflicts escalated into direct warfare as major powers competed for resource corridors and strategic production zones.
