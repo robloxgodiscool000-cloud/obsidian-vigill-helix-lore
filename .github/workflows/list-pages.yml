@@ -1,0 +1,22 @@
+name: List Wiki.js Pages
+
+on:
+  workflow_dispatch: {}   # Run manually from the Actions tab
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: List all pages
+        env:
+          WIKIJS_URL: ${{ secrets.WIKIJS_URL }}
+          WIKIJS_TOKEN: ${{ secrets.WIKIJS_TOKEN }}
+        run: node scripts/list-pages.js
