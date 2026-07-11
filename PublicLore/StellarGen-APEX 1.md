@@ -19,7 +19,7 @@ This dual-purpose division is the absolute foundation of StellarGen’s infrastr
 ### 3. APEX Banking
 APEX Banking is the undisputed financial titan of the modern era, holding the debts of both private citizens and entire sovereign states.
 * In the wake of The Greatest War, traditional fiat currencies collapsed. APEX Banking stepped in to establish a new, universally accepted digital economy entirely backed by corporate assets. 
-* **They ruthlessly utilise capital. The massive, trillion-dollar budgets required to fund NOVA's biological research are generated here.
+* They ruthlessly utilise capital. The massive, trillion-dollar budgets required to fund NOVA's biological research are generated here.
 
 ---
 **Related Maps of Content:**
