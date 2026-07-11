@@ -2,7 +2,6 @@
 aliases:
   - NOVA
   - StellarGen Research
-  - The Black Sites
 tags:
   - 
   - 
