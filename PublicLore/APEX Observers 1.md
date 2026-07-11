@@ -18,12 +18,6 @@ To ensure NOVA Facilities have a constant stream of fresh, new test subjects and
 
 Unlike standard corporate drafting, the Observer program casts a wide net across the [Remaining Nations](Remaining%20Nations%201.md), acting as an unconventional entry point into the coveted StellarGen corporate ecosystem. It bypasses the traditional, decades-long educational and bureaucratic requirements, making it highly attractive to a diverse demographic.
 
-## A Tapestry of Motivations
-Observers are not a united group; they arrive at the Facility for vastly different reasons, representing a cross-section of humanity and mutant-kind. Their motivations often dictate how they approach their tenure:
-* **The Ambitious:** Many young technicians, aspiring scientists, and administrative hopefuls view the Observer contract as a fast-track ticket. If they prove their competence during their observation period, they can quickly secure lucrative, permanent positions within the Facility.
-* **The Idealists:** Driven by a genuine desire to save the world, these Observers volunteer to help [StellarGen-NOVA](StellarGen-NOVA.md) cure [The Sanguine Mist](The%20Sanguine%20Mist.md). They view being a test subject for new immunities or environmental tech as a noble sacrifice for the greater good.
-* **The Pragmatists:** For many, the apocalypse outside the walls is simply too harsh. The Observer program guarantees a private bunk, synthesized (but high-quality) meals, advanced healthcare, and absolute physical safety from [Mutants](Mutants.md) and the [The Red Butchers](The%20Red%20Butchers.md). It is a chance for a fresh start.
-
 ## The Caveat of Contribution
 While Observers handle many of the day-to-day supportive tasks around the Facility—often assisting the [Technical & Maintenance Department](Technical%20&%20Maintenance%20Department.md) or shadowing researchers—their primary unique function is their availability to the [Research & Medical Department](Research%20&%20Medical%20Department.md). 
 
