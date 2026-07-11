@@ -1,0 +1,34 @@
+name: Delete Wiki.js Pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      page_ids:
+        description: 'Comma-separated page IDs to delete (run "List Wiki.js Pages" first to find these)'
+        required: true
+        type: string
+      confirm:
+        description: 'Type DELETE (exact, all caps) to actually delete. Anything else = dry run, nothing deleted.'
+        required: true
+        default: 'dry-run'
+        type: string
+
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Delete specified pages
+        env:
+          WIKIJS_URL: ${{ secrets.WIKIJS_URL }}
+          WIKIJS_TOKEN: ${{ secrets.WIKIJS_TOKEN }}
+          PAGE_IDS: ${{ github.event.inputs.page_ids }}
+          CONFIRM_TEXT: ${{ github.event.inputs.confirm }}
+        run: node scripts/delete-pages.js
