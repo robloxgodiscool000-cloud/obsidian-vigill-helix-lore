@@ -13,7 +13,7 @@ status: drafting
 > **The Sanguine Wastelands** comprise the vast majority of the Earth's surface that has been entirely consumed by The Sanguine Mist. Held back by the bordering Walls, these regions are hyper-lethal, continually digested and biologically rewritten by the Mist. They serve as the undisputed domain of feral Mutants and AWOL Cells.
 
 ## Major Consumed Regions
-While the Wastelands span the globe, corporate cartographers have divided the collapsed territories into several distinct, highly specific hazard zones based on Mist density and geographical mutation.
+While the Wastelands span the globe, cartographers have divided the collapsed territories into several distinct, highly specific hazard zones based on Mist density and geographical mutation.
 
 ### The Eurasian Red Steppe
 Encompassing the former territories of **Russia, Eastern Europe, and Central Asia**, the Steppe is the largest unbroken stretch of Mist on the planet. The Mist here is incredibly dense, settling into the valleys and frozen tundras to create an ocean of red fog.

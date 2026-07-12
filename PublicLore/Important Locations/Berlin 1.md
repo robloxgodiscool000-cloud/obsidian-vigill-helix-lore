@@ -28,7 +28,7 @@ At the heart of the city lies **NOVA Site-01**, colloquially known across the gl
 
 ## A Mutant Haven
 Because StellarGen positions itself as the primary global protector of the mutated, its central hub is inherently a beacon for refugees. 
-NOVA Site-01 employs thousands of stable mutants within its bureaucratic, security, and logistical sectors. This corporate integration has bled out into the city itself. Berlin boasts the highest demographic concentration of mutants of any metropolitan safe zone in the world. In the neon-lit streets, it is entirely commonplace to see mutated individuals working, socializing, and living alongside baseline humans, safe from the fires of the Red Wastelands or the purge squads of hostile nations.
+'Headquarters' employs thousands of stable mutants within its bureaucratic, security, and logistical sectors. This corporate integration has bled out into the city itself. Berlin boasts the highest demographic concentration of mutants of any metropolitan safe zone in the world. In the neon-lit streets, it is entirely commonplace to see mutated individuals working, socializing, and living alongside baseline humans, safe from the fires of the Red Wastelands or the purge squads of hostile nations.
 
 ---
 
