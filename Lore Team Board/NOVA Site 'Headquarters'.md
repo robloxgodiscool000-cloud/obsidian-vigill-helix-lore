@@ -21,6 +21,6 @@ Critically, Site-01 does not conduct any technological development or Mist-relat
 It is from these administrative spires that APEX’s numerous corporate branches are managed. The bureaucrats within Headquarters dictate everything from the global manufacturing pipelines of atmospheric walls to the financial ledgers of APEX Banking.
 
 ## Global Military Hub
-Beyond corporate administration, Headquarters is a highly militarised fortress. It serves as the primary global deployment hub for the [[APEX Military]]. From this central location, StellarGen monitors AWOL activity, authorises NOVA Expeditions, and coordinates the vast mechanised armies needed to secure StellarGen's assets across the Remaining Nations.
+Beyond corporate administration, Headquarters is a highly militarised fortress. It serves as the primary global deployment hub for the [[Lore Team Board/APEX Military]]. From this central location, StellarGen monitors AWOL activity, authorises NOVA Expeditions, and coordinates the vast mechanised armies needed to secure StellarGen's assets across the Remaining Nations.
 
 ---

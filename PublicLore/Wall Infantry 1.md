@@ -14,7 +14,7 @@ status: drafting
 # The Castellans
 
 > [!summary] Overview
-> The **Castellans**, officially designated as the APEX Wall Infantry, are the most numerous and heavily deployed branch of the [[APEX Military]]. Garrisoned atop the colossal atmospheric walls that encircle the safe regions, they act as the grim, unyielding shield between humanity and The Sanguine Mist. They endure a fatalistic, grueling existence, staring daily into an apocalyptic abyss to ensure the cities behind them survive.
+> The **Castellans**, officially designated as the APEX Wall Infantry, are the most numerous and heavily deployed branch of the [[Lore Team Board/APEX Military]]. Garrisoned atop the colossal atmospheric walls that encircle the safe regions, they act as the grim, unyielding shield between humanity and The Sanguine Mist. They endure a fatalistic, grueling existence, staring daily into an apocalyptic abyss to ensure the cities behind them survive.
 
 ## The Long Watch
 To be a Castellan is to accept a life of bleak, endless vigilance. Much like the doomed sentinels of ancient myth standing before the gates of hell, these soldiers spend their deployments perched on towering barricades, peering into the shifting, red oceans of the The Sanguine Wastelands. 
