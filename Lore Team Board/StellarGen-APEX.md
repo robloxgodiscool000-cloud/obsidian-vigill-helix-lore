@@ -35,4 +35,4 @@ APEX Banking is the undisputed financial titan of the modern era, holding the de
 **Related Maps of Content:**
 - [APEX Military](Lore%20Team%20Board/APEX%20Military.md)
 - [APEX Banking](Lore%20Team%20Board/APEX%20Banking.md)
-- [APEX Legal & Manufacturing 1](APEX%20Legal%20&%20Manufacturing%201.md)
+- [APEX Legal 1](APEX%20Legal%201.md)
