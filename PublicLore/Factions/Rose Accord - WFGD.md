@@ -35,7 +35,10 @@ Due to the nature of the Rosen Soldiers, in that they range from the globe's var
 
 Whilst the WFGD Armed Forces outnumber APEX Military to an outrageous degree, because the Accord Military is chronically outgunned, they occasionally employ AWOL Corps cells as deniable elite mercenaries to strike APEX Expedition convoys and NOVA technology.
 
----
+## Flag
+![](rosecoalition1.png)
+-- --
+
 **Related Maps of Content:**
 * [Remaining Nations](Remaining%20Nations.md)
 * [Detroit](Detroit.md)
