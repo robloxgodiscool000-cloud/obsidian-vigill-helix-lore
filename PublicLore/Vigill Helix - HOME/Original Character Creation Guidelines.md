@@ -1,4 +1,4 @@
-AUGHAn **Original Character (OC)** is a unique, custom persona created by a player to participate in the ongoing story of Vigill Helix. 
+An **Original Character (OC)** is a unique, custom persona created by a player to participate in the ongoing story of Vigill Helix. 
 To maintain the integrity, consistency, and realism of the setting, there are a few regulations you must follow before interacting with the lore in-character.
 
 ### Starting Roles
