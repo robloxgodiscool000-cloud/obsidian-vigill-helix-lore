@@ -31,7 +31,7 @@ APEX serves as the infrastructural and militant vanguard against the Mist. Its s
 NOVA directs the corporation's scientific initiatives. Operating out of a vast network of heavily fortified Research Sites, NOVA's primary objective is the complete biological eradication of the Mist. This goal is pursued through relentless scientific experimentation.
 
 ## Symptoms of Lethal Exposure
-Direct contact with most strains within the Sanguine Mist is lethal almost immediately. **Symptoms include:**
+Direct contact with most strains within the Sanguine Mist is lethal almost immediately. **Common symptoms include:**
 * **Acute Pulmonary Liquefaction:** Inhalation causes the micro-agents to rapidly dissolve lung tissue in order to synthesize new Mist, resulting in immediate asphyxiation.
     
 - **Spontaneous Cellular Necrosis:** Dermal contact triggers aggressive degradation; the Mist strips organic matter at a cellular level, causing severe, burn-like tissue loss.
