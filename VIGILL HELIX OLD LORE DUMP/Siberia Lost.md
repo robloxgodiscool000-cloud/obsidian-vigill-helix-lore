@@ -1,0 +1,1 @@
+ice bridge between alaska/russia is permanently open due to (SANGUINE BULLSHIT) so it means stellargen has free access n shit but is also a wall on canada, etc etc
