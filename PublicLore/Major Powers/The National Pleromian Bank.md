@@ -1,7 +1,7 @@
 # The National Pleromian Bank
 
 > [!summary] Overview
-> **The National Pleromian Bank** is the disputed financial spine of the new nation. Following the collapse of many traditional fiat currencies during the Age of Strife, and the creation of the sovereign nation of Pleroma, this former corporate division transitioned to a governmental entity. It functions as the central infrastructure for the blossoming nation, utilising its own currency and clever tactics to aid its growth. It consistently cooperates with the Pleromian Union of Labour to see to the full integration of Districts, alongside acting as the engine that saw to Subsumption of them.
+> **The National Pleromian Bank** is the undisputed financial spine of the new nation. Following the collapse of many traditional fiat currencies during the Age of Strife, and the creation of the sovereign nation of Pleroma, this former corporate division transitioned to a governmental entity. It functions as the central infrastructure for the blossoming nation, utilising its own currency and clever tactics to aid its growth. It consistently cooperates with the Pleromian Union of Labour to see to the full integration of Districts, alongside acting as the engine that saw to Subsumption of them.
 
 ## Key Notes
 
