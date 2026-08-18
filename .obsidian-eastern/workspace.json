@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "d3cfab08414cc526",
+    "type": "split",
+    "children": [
+      {
+        "id": "8120420ad52f72ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c448ec65ab6a9949",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PublicLore/The Pleromian Union of Labour/Urban Prefecture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Urban Prefecture"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "655fb37d86164a2d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c75d25b9c203fad3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d071919ee9b14582",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2ab4c3d28d0e0b44",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ".md",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4c29a6e3cc432d3c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0ba27a83873248c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a1eed12b1564dc3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12e748a329393de1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PublicLore/Vigill Helix - HOME/The HIEROPHANT Project.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "8365ef0bc20a629c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Mutants.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Mutants"
+            }
+          },
+          {
+            "id": "20596359b8b1b562",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "57a89abb9db23d6c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "bd52c13393717643",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Mutants.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Mutants"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c448ec65ab6a9949",
+  "lastOpenFiles": [
+    "PublicLore/Factions/DEFN - Factions.md",
+    "VIGILL HELIX OLD LORE DUMP/Remaining Nations 1.md",
+    "VIGILL HELIX OLD LORE DUMP/AWOL Corps 1.md",
+    "PublicLore/Factions/External Factions 1.md",
+    "VIGILL HELIX OLD LORE DUMP/StellarGen 1.md",
+    "PublicLore/Major Powers/The Pleromian Union of Labour.md",
+    "PublicLore/Major Powers/The National Pleromian Bank.md",
+    "PublicLore/Factions/images/LAFflagap.png",
+    "PublicLore/History/Timeline.md",
+    "PublicLore/History/The Age of Strife.md",
+    "PublicLore/History/DEFN - History.md",
+    "PublicLore/The HIEROPHANT Project - HOME/The HIEROPHANT Project.md",
+    "VIGILL HELIX OLD LORE DUMP/Sanguine Mist 1.md",
+    "PublicLore/Important Locations/Imperia.md",
+    "PublicLore/Important Locations/DEFN - Important Locations.md",
+    "PublicLore/Important Locations/FERRAPEX.md",
+    "PublicLore/Important Locations/PC-23 'The Lighthouse'.md",
+    "PublicLore/Populations/Somantics.md",
+    "PublicLore/Populations/DEFN - Populations.md",
+    "PublicLore/Major Powers/DEFN - Major Powers.md",
+    "PublicLore/Populations/Aberrants.md",
+    "VIGILL HELIX OLD LORE DUMP/NOVA Site 'The Lighthouse' 1.md",
+    "VIGILL HELIX OLD LORE DUMP/NOVA Facility 'Scotia' 1.md",
+    "VIGILL HELIX OLD LORE DUMP/Berlin 1.md",
+    "VIGILL HELIX OLD LORE DUMP/Sanguine Wastelands 1.md",
+    "PublicLore/Major Powers/The Extension Unit.md",
+    "PublicLore/The HIEROPHANT Project - HOME/Original Character Creation Guidelines.md",
+    "PublicLore/Factions/images/rosecoalition1.png",
+    "PublicLore/Factions/images/PACflag.png",
+    "PublicLore/Factions/images/LAFflagap 1.png",
+    "PublicLore/Factions/images",
+    "Untitled.base",
+    "PublicLore/The HIEROPHANT Project - HOME",
+    "PublicLore/History",
+    "PublicLore/The Pleromian Union of Labour",
+    "PublicLore/Populations",
+    "PublicLore/Major Powers",
+    "PublicLore/Important Locations",
+    "PublicLore/Factions",
+    "scripts/sync-to-wikijs.js"
+  ]
+}
