@@ -16,7 +16,7 @@ Because a large portion of the populace is insulated from the horrors of the dyi
 # District 3
 
 > [!summary] Overview
-> The first of the Lower Districts, and one of the two to be most recently Subsumed into Pleroma, **the average civilian life** within District 3 is somewhat stifling. As Pleroma aims to expand further, this District faces the monumental task of being the primary breadbasket of the nation. It is heavily policed and monitored by Imperia, especially due to the Monad City of FERRAPHEX. As a District undergoing Subsumption, the opinions within is expectedly divided between its citizens, with them grappling with their new identities as Pleromian citizens in their own ways.
+> The first of the Lower Districts, and one of the two to be most recently Subsumed into Pleroma, **the average civilian life** within District 3 is somewhat stifling. As Pleroma aims to expand further, this District faces the monumental task of being the primary breadbasket of the nation. It is heavily policed and monitored by Imperia, especially due to the Monad City of FERRAPHEX. As a District undergoing Subsumption, the opinions within is expectedly divided between its citizens, with them grappling with their new identities as Pleromian citizens in their own ways. It is the former State of Montana.
 # District 4
 
 > [!summary] Overview
