@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PublicLore/Monad City FERRAPHEX/The Board of Civic Health.md",
+                "file": "PublicLore/Important Locations/PC-23 'The Lighthouse'.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Board of Civic Health"
+              "title": "PC-23 'The Lighthouse'"
             }
           }
         ]
@@ -182,8 +182,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "9060270ffd118f1d",
+  "active": "79138bc6af5d5953",
   "lastOpenFiles": [
+    "VIGILL HELIX OLD LORE DUMP/NOVA Sites.md",
+    "PublicLore/Important Locations/PC-23 'The Lighthouse'.md",
+    "PublicLore/Populations/Outside World 1.md",
+    "PublicLore/History/Timeline.md",
+    "PublicLore/History/The Age of Strife.md",
+    "PublicLore/History/History.md",
+    "PublicLore/History/Sanguine Mist 1.md",
+    "PublicLore/History/The Greatest War 1.md",
+    "PublicLore/History/Timeline 1.md",
+    "PublicLore/History/DEFN - History.md",
+    "PublicLore/Monad City FERRAPHEX/The Board of Civic Health.md",
     "VIGILL HELIX OLD LORE DUMP/Wall Infantry.md",
     "VIGILL HELIX OLD LORE DUMP/Wall Infantry 1.md",
     "VIGILL HELIX OLD LORE DUMP/Vigill Helix - HOME.md",
@@ -199,17 +210,6 @@
     "VIGILL HELIX OLD LORE DUMP/StellarGen-APEX.md",
     "VIGILL HELIX OLD LORE DUMP/Site Directorate.md",
     "VIGILL HELIX OLD LORE DUMP/StellarGen 1.md",
-    "VIGILL HELIX OLD LORE DUMP/Siberia Lost.md",
-    "VIGILL HELIX OLD LORE DUMP/Sanguine Wastelands.md",
-    "VIGILL HELIX OLD LORE DUMP/Sanguine Wastelands 1.md",
-    "VIGILL HELIX OLD LORE DUMP/Sanguine Mist.md",
-    "VIGILL HELIX OLD LORE DUMP/Sanguine Mist 1.md",
-    "VIGILL HELIX OLD LORE DUMP/SG-01 Blood Eagle.md",
-    "VIGILL HELIX OLD LORE DUMP/Rose Accord - WFGD.md",
-    "VIGILL HELIX OLD LORE DUMP/Research & Medical Department (R&MD).md",
-    "VIGILL HELIX OLD LORE DUMP/Rose Accord - WFGD 1.md",
-    "VIGILL HELIX OLD LORE DUMP/Remaining Nations 1.md",
-    "VIGILL HELIX OLD LORE DUMP/Remaining Nations.md",
     "VIGILL HELIX OLD LORE DUMP",
     "PublicLore/Vigill Helix - HOME",
     "PublicLore/Factions/images/rosecoalition1.png",

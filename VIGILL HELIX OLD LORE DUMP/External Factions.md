@@ -1,3 +1,0 @@
-- [Rose Accord - WFGD](VIGILL%20HELIX%20OLD%20LORE%20DUMP/Rose%20Accord%20-%20WFGD.md)
-- [AWOL Corps](AWOL%20Corps.md)
-- 

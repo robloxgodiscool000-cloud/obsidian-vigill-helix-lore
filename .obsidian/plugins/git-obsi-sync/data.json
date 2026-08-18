@@ -1,5 +1,5 @@
 {
-  "githubToken": "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",
+  "githubToken": "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",
   "githubUsername": "robloxgodiscool000-cloud",
   "repoName": "obsidian-vigill-helix-lore",
   "autoSync": false,
@@ -11,6 +11,6 @@
     "G:\\My Drive\\Vigill Helix Lore\\.git",
     "G:\\My Drive\\Vigill Helix Lore\\.obsidian-eastern"
   ],
-  "lastSyncTime": 1787014988804,
+  "lastSyncTime": 1787075758307,
   "commitMessageTemplate": "sync: {{datetime}}"
 }
