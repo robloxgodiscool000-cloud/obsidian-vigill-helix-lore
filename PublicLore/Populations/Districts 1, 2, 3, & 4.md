@@ -1,4 +1,6 @@
-# District
+> [!summary] Addendum
+> **Monad Cities** are vitally important, designated cities within the respective District they inhabit. All District Capital Cities and Monad CIties, but not all Monad Cities are District Capital Cities.
+# District 1
 
 > [!summary] Overview
 > An exception to the other Districts' quality of life, **the average civilian life** within District 1 is remarkably comfortable and highly advanced. As the smallest District and the District that houses Imperia, alongside the fact it was the first to be Subsumed, the average citizen enjoys a vibrant, high-tech existence.

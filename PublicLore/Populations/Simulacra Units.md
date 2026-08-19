@@ -10,7 +10,7 @@ Imperia welcomes any Simulacra Units wishing to become a Somantic Citizen, howev
 
 Regardless, many Simulacra Units are evident within FERRAPHEX, and beyond.
 ## Common Appearances & Characteristics
-Simulacra Units are known for uniform appearances and traits, due to the nature of their creation. Most Unit Lines, as part of their creation process, use brain scans of selected Somantic Citizens to act as a base for which Imperia, corporations and nations may mold to fit the specific task assigned to the Unit Line.
+Simulacra Units are known for uniform appearances and traits, due to the nature of their creation. Most Unit Lines, as part of their creation process, use brain scans of selected Somantic Citizens to act as a base for which Imperia, corporations and nations may mold to fit the specific task assigned to the Unit Line. However, due to that nature, Imperia, and other nations that utilise Simulacra Units, often deliberately instate policies and protocols to avoid radical separation from a unified selfdom that which most Model Lines conform to, respectively.
 
 For example, a common Simulacra Unit Line is the **PAVO** Unit Line. PAVOs are an Imperian-sponsored VIP protection unit, commonly seen guarding select higher echelon members of the Union of Labour. They are known for their aristocratic-like demeanour, acting as dutiful attendants and guardsmen for the whims of their assigned personnel.
 
