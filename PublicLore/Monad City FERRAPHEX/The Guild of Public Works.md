@@ -3,7 +3,7 @@
 > [!summary] Overview
 > **The Guild of Public Works** is the mechanical and structural backbone of the Monad City of District 3. Functioning as a massive, unified Sub-Union, it consolidates all architects, electricians, mechanics, and heavy labourers under a single banner. Their ultimate directive is the relentless upkeep, expansion, and repair of the city's towering infrastructure. From the sterile, high-level architectural planning offices to the claustrophobic, smog-choked maintenance tunnels, they are the blue-collar workforce that keeps the corporate fortress breathing.
 
-## Guild Structure
+## Sub-Union Structure
 To efficiently manage the staggering infrastructural and mechanical demands of a hyper-dense urban environment, the Guild is partitioned into several specialised divisions. While their operations encompass all facets of urban upkeep, their two primary branches consist of:
 
 ### 1. The Structural & Architectural Corps
