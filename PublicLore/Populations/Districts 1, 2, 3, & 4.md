@@ -1,5 +1,5 @@
 > [!summary] Addendum
-> **Monad Cities** are vitally important, designated cities within the respective District they inhabit. All District Capital Cities and Monad CIties, but not all Monad Cities are District Capital Cities.
+> **Monad Cities** are vitally important, designated cities within the respective District they inhabit. All District Capital Cities are Monad CIties, but not all Monad Cities are District Capital Cities.
 # District 1
 
 > [!summary] Overview
