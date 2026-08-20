@@ -12,7 +12,7 @@ Because their human personnel numbers are heavily resourced and strictly maintai
 To efficiently police the district boundaries and secure the borderlands, the Extension Unit is divided into multiple branches. The two most notable branches are below:
 
  1. ***Wall Infantry***
-The largest and most visible branch, tasked with the gruelling, constant defence of the massive perimeter walls that protect Sector 4. They manage the border and checkpoint security, serving as the first line of defence against hostile incursions alongside ensuring all refuges entering into Pleroma are safely processed.
+The largest and most visible branch, tasked with the gruelling, constant defence of the massive perimeter walls that protect District 3. They manage the border and checkpoint security, serving as the first line of defence against hostile incursions alongside ensuring all refuges entering into Pleroma are safely processed.
 
  2. ***Tactical Response Brigade (TRB)***
 Elite, heavily armed strike teams stationed at strategic gate-houses along the wall. They are deployed directly into the toxic exterior when high-value corporate targets or internal security breaches demand immediate intervention, acting as a rapid-deployment hammer against any threat to Pleroma's national security.
