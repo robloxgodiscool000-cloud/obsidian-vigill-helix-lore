@@ -1,7 +1,7 @@
 # Urban Prefecture
 
 > [!summary] Overview
-> **The Urban Prefecture** is the primary policing body and the largest Sub-Union operating within the administrative framework of the Union of Labour. Tasked with maintaining absolute civil obedience across dense urban centres in FERRAPEX, the Prefecture functions as a lateral present force of law and order.
+> **The Urban Prefecture** is the primary policing body and the largest Sub-Union operating within the administrative framework of the Union of Labour. Tasked with maintaining absolute civil obedience across dense urban centres in FERRAPEX, the Prefecture functions as a lateral present force of law and order, alongside acting as a primary all-around security body within the city limits.
 
 ## Sub-Union Structure
 To more effectively address the orderly needs of FERRAPEX, the Prefecture splits itself into the following, though not limited to, branches:
@@ -14,5 +14,8 @@ Serving as the Prefecture's internal military police, inspectors, and detectives
 
 ### 3. The Castellan Units
 The **Castellans** represent the highly specialised digital and cybernetic arm of the Prefecture. Being the smallest branch of the Prefecture, they operate as net-monitors, cyber-police, and technical specialists. Their primary function is tracking illicit communications, cracking encrypted contraband networks, managing automated surveillance grids, and hunting down rogue dissenters within the Lower District.
+
+## Coat of Arms
+![Prefecture Coat of Arms](https://raw.githubusercontent.com/robloxgodiscool000-cloud/obsidian-vigill-helix-lore/main/PublicLore/images/prefecture%20icon.png)
 
 ---
