@@ -1,15 +1,3 @@
----
-aliases:
-  - Pleromian Citizens
-  - Humans
-  - Prospects
-tags:
-  - 
-  - 
-  - 
-  - 
-status: drafting
----
 # Somantics
 
 > [!summary] Overview
