@@ -4,6 +4,7 @@ links:
   - Discord Server | https://discord.gg/nHFV8xAQ2N
   - Roblox Group | https://www.roblox.com/share/g/855753797
   - Discord Tickets Server | https://discord.gg/uq3rb7N3BY
+  - Apply | https://apply.thehierophantproject.wiki
 featured:
   - Documentation
   - Original Character Creation Guidelines
