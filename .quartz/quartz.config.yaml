@@ -17,7 +17,7 @@ configuration:
     # The home note is published as the front page (index.md) by build.sh
     - "The HIEROPHANT Project - HOME/The HIEROPHANT Project.md"
   theme:
-    fontOrigin: googleFonts
+    fontOrigin: local   # fonts are self-hosted, see .quartz/custom.scss
     cdnCaching: true
     typography:
       header: IBM Plex Sans Condensed
@@ -101,6 +101,8 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      fontOrigin: local
   - source: "@quartz-themes/core"
     enabled: false
     options:

@@ -28,6 +28,23 @@ if [ -f "$REPO_ROOT/.quartz/custom.scss" ]; then
 fi
 (cd "$QUARTZ" && npm run --silent install-plugins)
 
+# Self-hosted fonts (no Google Fonts requests from visitors' browsers).
+# Must match the list in .quartz/custom.scss.
+FONTS="ibm-plex-sans/400-normal ibm-plex-sans/400-italic ibm-plex-sans/600-normal ibm-plex-sans/600-italic
+ibm-plex-sans-condensed/400-normal ibm-plex-sans-condensed/700-normal
+ibm-plex-mono/400-normal ibm-plex-mono/600-normal"
+FONT_DIR="$QUARTZ/quartz/static/fonts"
+if [ ! -d "$WORK/fonts/node_modules" ]; then
+  mkdir -p "$WORK/fonts"
+  (cd "$WORK/fonts" && npm init -y >/dev/null && npm install --no-audit --no-fund --silent \
+    @fontsource/ibm-plex-sans@5 @fontsource/ibm-plex-sans-condensed@5 @fontsource/ibm-plex-mono@5)
+fi
+mkdir -p "$FONT_DIR"
+for f in $FONTS; do
+  pkg="${f%%/*}"; variant="${f#*/}"
+  cp "$WORK/fonts/node_modules/@fontsource/$pkg/files/$pkg-latin-$variant.woff2" "$FONT_DIR/"
+done
+
 # 3. Quartz's front page is content/index.md, so publish the home note there.
 #    This file only exists during the build and is removed afterwards.
 if [ -e "$INDEX" ]; then

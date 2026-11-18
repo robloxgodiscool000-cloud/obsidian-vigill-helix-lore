@@ -1,0 +1,42 @@
+@use "./variables.scss" as *;
+
+// Custom styles for vigillhelix.wiki. Copied into Quartz by .quartz/build.sh.
+
+// Fonts are served from the site itself (copied in by build.sh), so pages
+// look right even when a browser blocks Google Fonts.
+$fonts: (
+  ("IBM Plex Sans", "ibm-plex-sans-latin-400-normal", 400, normal),
+  ("IBM Plex Sans", "ibm-plex-sans-latin-400-italic", 400, italic),
+  ("IBM Plex Sans", "ibm-plex-sans-latin-600-normal", 600, normal),
+  ("IBM Plex Sans", "ibm-plex-sans-latin-600-italic", 600, italic),
+  ("IBM Plex Sans Condensed", "ibm-plex-sans-condensed-latin-400-normal", 400, normal),
+  ("IBM Plex Sans Condensed", "ibm-plex-sans-condensed-latin-700-normal", 700, normal),
+  ("IBM Plex Mono", "ibm-plex-mono-latin-400-normal", 400, normal),
+  ("IBM Plex Mono", "ibm-plex-mono-latin-600-normal", 600, normal)
+);
+
+@each $family, $file, $weight, $style in $fonts {
+  @font-face {
+    font-family: $family;
+    src: url("static/fonts/#{$file}.woff2") format("woff2");
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+  }
+}
+
+// Always keep a sans-serif fallback behind the chosen fonts.
+:root {
+  --titleFont: "IBM Plex Sans Condensed", system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  --headerFont: "IBM Plex Sans Condensed", system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  --bodyFont: "IBM Plex Sans", system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  --codeFont: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  --font-text: var(--bodyFont);
+  --font-monospace: var(--codeFont);
+  --h1-font: var(--headerFont);
+  --h2-font: var(--headerFont);
+  --h3-font: var(--headerFont);
+  --h4-font: var(--headerFont);
+  --h5-font: var(--headerFont);
+  --h6-font: var(--headerFont);
+}
