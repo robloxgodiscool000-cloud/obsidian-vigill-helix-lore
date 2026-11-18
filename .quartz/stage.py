@@ -7,6 +7,8 @@ afterwards. Nothing in your vault is changed.
     Its text becomes the intro. Its properties control the rest:
       featured:      notes shown as large cards at the top
       contributors:  names listed at the bottom
+      links:         buttons under the intro, each "Label | https://..."
+                     or "[Label](https://...)"
     Below the intro, every folder is shown as a column of page cards.
 - <folder>/DEFN - <folder>.md    -> <folder>/index.md    (the section page)
 - folders listed in FOLDER_TITLES get that name on the site
@@ -140,6 +142,20 @@ if os.path.exists(home):
              f'<h1 class="hub-title">{e(site_title)}</h1>',
              '</div>', "", intro.strip(), ""]
 
+    links = []
+    for item in frontmatter_list(fm, "links"):
+        m = re.match(r"^\[(.+?)\]\((\S+?)\)$", item) or re.match(r"^(.+?)\s*\|\s*(\S+)$", item)
+        if m:
+            links.append((m.group(1).strip(), m.group(2).strip()))
+        else:
+            print(f"stage: couldn't read link '{item}' (use 'Label | https://...')", file=sys.stderr)
+    if links:
+        parts.append('<div class="hub-links">')
+        for label, url in links:
+            parts.append(f'<a class="hub-link" href="{e(url)}" target="_blank" rel="noopener">'
+                         f'<span>{e(label)}</span><span class="hub-link-arrow">↗</span></a>')
+        parts.append('</div>')
+
     featured = []
     for name in frontmatter_list(fm, "featured"):
         found = find_note(name)
@@ -186,7 +202,7 @@ if os.path.exists(home):
     parts.append('<p class="hub-credit">Cover: Arnold Böcklin, <i>Isle of the Dead</i> (third version, 1883), Alte Nationalgalerie, Berlin. Public domain.</p>')
 
     fm_keep = "\n".join(l for l in fm.splitlines()
-                        if not re.match(r"^(featured|contributors|title):", l) and not l.startswith((" ", "\t")))
+                        if not re.match(r"^(featured|contributors|links|title):", l) and not l.startswith((" ", "\t")))
     write(os.path.join(content, "index.md"),
           "---\ntitle: " + json.dumps(site_title) + "\n" + (fm_keep + "\n" if fm_keep else "")
           + "---\n" + "\n".join(parts) + "\n")
