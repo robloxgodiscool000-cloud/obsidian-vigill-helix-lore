@@ -1,14 +1,12 @@
 ---
 aliases:
-  - Pleromian Citizens
-  - Humans
   - Prospects
 tags:
   - 
   - 
   - 
   - 
-status: drafting
+status:
 ---
 # Somantics
 
@@ -22,5 +20,7 @@ These individuals legally forfeit their right to leave the city, amongst other p
 
 ## Consistency
 Somantics of FERRAPHEX, and to a lesser extent District 3, are unique as they possess a higher amount of various groups evident in Pleroma, such as vetted Simulacra and Aberrants.
+
+---s a high-risk, high-reward arrangement. Those who show exceptional resilience, intellect, or adaptability during these trials are frequently promoted out of the standard Observer pool, or remain as NOVA-employed Observer.
 
 ---
