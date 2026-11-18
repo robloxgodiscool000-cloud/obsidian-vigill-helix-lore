@@ -50,6 +50,7 @@ $fonts: (
   --tag-blue: #5e87c9;   --tag-blue-bg: rgba(94, 135, 201, 0.13);
   --tag-purple: #9d68d3; --tag-purple-bg: rgba(157, 104, 211, 0.13);
   --tag-red: #df5452;    --tag-red-bg: rgba(223, 84, 82, 0.12);
+  --tag-pink: #d15796;   --tag-pink-bg: rgba(209, 87, 150, 0.12);
 }
 
 :root[saved-theme="light"] {
@@ -60,6 +61,7 @@ $fonts: (
   --tag-blue: #337ea9;   --tag-blue-bg: rgba(51, 126, 169, 0.09);
   --tag-purple: #9065b0; --tag-purple-bg: rgba(144, 101, 176, 0.09);
   --tag-red: #d44c47;    --tag-red-bg: rgba(212, 76, 71, 0.09);
+  --tag-pink: #c14c8a;   --tag-pink-bg: rgba(193, 76, 138, 0.09);
 }
 
 // ---------- General ----------
@@ -283,7 +285,7 @@ body[data-slug="index"] {
   gap: 6px;
 }
 
-@each $c in grey, brown, orange, green, blue, purple, red {
+@each $c in grey, brown, orange, green, blue, purple, red, pink {
   .hub-column.tag-#{$c} {
     --tag: var(--tag-#{$c});
     --tag-bg: var(--tag-#{$c}-bg);
@@ -354,4 +356,40 @@ body[data-slug="index"] {
 .hub-person {
   font-weight: 600;
   font-style: italic;
+}
+
+// Community links under the intro (Home.md "links" property)
+.hub-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 10px;
+  margin: 1.4rem 0 0.4rem;
+}
+
+.hub-link {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px !important;
+  border-radius: 6px !important;
+  background: var(--highlight) !important;
+  border: 1px solid var(--lightgray);
+  color: var(--dark) !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none !important;
+  transition: background-color 0.15s ease;
+}
+
+.hub-link:hover {
+  background: var(--lightgray) !important;
+}
+
+.hub-link-arrow {
+  color: var(--gray);
+}
+
+// Quartz adds its own external-link icon; the arrow above replaces it
+.hub-link .external-icon {
+  display: none;
 }

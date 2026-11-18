@@ -9,6 +9,7 @@ ExternalPlugin.Explorer({
   sortFn: (a, b) => {
     const order = [
       "the-hierophant-project---home",
+      "campaigns",
       "history",
       "factions",
       "populations",
@@ -20,11 +21,22 @@ ExternalPlugin.Explorer({
     const ra = order.indexOf(a.slugSegment)
     const rb = order.indexOf(b.slugSegment)
     if (ra !== rb) return (ra === -1 ? 999 : ra) - (rb === -1 ? 999 : rb)
-    return a.displayName.localeCompare(b.displayName, undefined, {
+    // Campaign logs named "YYYY-MM-DD ..." go after other pages, newest first
+    const da = /^\d{4}-\d{2}-\d{2}/.test(a.displayName)
+    const db = /^\d{4}-\d{2}-\d{2}/.test(b.displayName)
+    if (da !== db) return da ? 1 : -1
+    if (da && db) return b.displayName.localeCompare(a.displayName)
+    // Sort by file name, so a "1 " prefix still orders pages...
+    return a.slugSegment.localeCompare(b.slugSegment, undefined, {
       numeric: true,
       sensitivity: "base",
     })
   },
+  // ...but don't show the prefix ("1 The HIEROPHANT Project" -> "The HIEROPHANT Project")
+  mapFn: (node) => {
+    node.displayName = node.displayName.replace(/^\d+\s+/, "")
+  },
+  order: ["filter", "map", "sort"],
 })
 
 const config = await loadQuartzConfig()
