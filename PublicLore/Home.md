@@ -5,9 +5,8 @@ featured:
   - Original Character Creation Guidelines
   - The HIEROPHANT Project
 contributors:
-  - Celtic
+  - celtic
 ---
-
 This site is the official source for The HIEROPHANT Project's lore, guidelines and community documentation.
 
-Content is written and kept up to date by the Project's contributors.
+Content is written and kept up to date by select Project contributors.
