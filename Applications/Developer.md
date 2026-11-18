@@ -3,6 +3,8 @@ title: Developer Application
 summary: Join the development team as a builder, scripter or asset maker.
 open: true
 reapply_days: 30
+review_channel: ""
+reviewer_role: ""
 ---
 The development team builds Pleroma in Roblox. Applicants should be able to show previous work. This application is out of character.
 
