@@ -2,8 +2,9 @@
 
 // Custom styles for vigillhelix.wiki. Copied into Quartz by .quartz/build.sh.
 
-// Fonts are served from the site itself (copied in by build.sh), so pages
-// look right even when a browser blocks Google Fonts.
+// ---------- Fonts ----------
+// Served from the site itself (copied in by build.sh), so pages look right
+// even when a browser blocks Google Fonts.
 $fonts: (
   ("IBM Plex Sans", "ibm-plex-sans-latin-400-normal", 400, normal),
   ("IBM Plex Sans", "ibm-plex-sans-latin-400-italic", 400, italic),
@@ -39,4 +40,102 @@ $fonts: (
   --h4-font: var(--headerFont);
   --h5-font: var(--headerFont);
   --h6-font: var(--headerFont);
+}
+
+// ---------- Look: an official state archive ----------
+
+// Site title in the sidebar
+.page-title,
+.page-title a {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 1.55rem;
+  line-height: 1.15;
+}
+
+// Page titles and section headings
+.article-title {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 2px solid var(--secondary);
+  padding-bottom: 0.35em;
+}
+
+article h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1.3rem;
+  border-bottom: 1px solid var(--lightgray);
+  padding-bottom: 0.25em;
+  margin-top: 2.2rem;
+}
+
+article h3 {
+  letter-spacing: 0.02em;
+}
+
+// Date and reading time, styled like a record stamp
+.content-meta {
+  font-family: var(--codeFont);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gray);
+}
+
+// Breadcrumbs and explorer folder names in small caps
+.breadcrumb-container,
+.explorer .folder-container > div > a,
+.explorer .folder-container > div > button span {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+}
+
+// Callouts (> [!summary] etc.) as official notices: square, gold rule, no tint
+.callout {
+  border-radius: 0;
+  border: 1px solid var(--lightgray);
+  border-left: 4px solid var(--secondary);
+  background-color: var(--highlight);
+}
+
+.callout .callout-title {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-family: var(--headerFont);
+  font-size: 0.9rem;
+}
+
+.callout[data-callout="summary"],
+.callout[data-callout="abstract"],
+.callout[data-callout="tldr"],
+.callout[data-callout="quote"] {
+  --color: var(--secondary);
+  --border: var(--secondary);
+  --bg: var(--highlight);
+}
+
+// Tables
+article table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+article th {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.8rem;
+  border-bottom: 2px solid var(--secondary);
+}
+
+article td {
+  border-bottom: 1px solid var(--lightgray);
+  vertical-align: top;
+}
+
+// Images: framed, never wider than the column
+article img {
+  border: 1px solid var(--lightgray);
+  max-width: 100%;
 }

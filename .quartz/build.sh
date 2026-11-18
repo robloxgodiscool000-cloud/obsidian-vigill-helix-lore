@@ -10,8 +10,6 @@ REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 WORK="$REPO_ROOT/.quartz/.work"
 QUARTZ="$WORK/quartz"
 CONTENT="$REPO_ROOT/PublicLore"
-HOME_NOTE="$CONTENT/The HIEROPHANT Project - HOME/The HIEROPHANT Project.md"
-INDEX="$CONTENT/index.md"
 
 # 1. Get Quartz (cached between local runs).
 if [ ! -d "$QUARTZ/.git" ] || [ "$(git -C "$QUARTZ" describe --tags 2>/dev/null)" != "$QUARTZ_VERSION" ]; then
@@ -34,6 +32,7 @@ fi
 if [ -f "$REPO_ROOT/.quartz/custom.scss" ]; then
   cp "$REPO_ROOT/.quartz/custom.scss" "$QUARTZ/quartz/styles/custom.scss"
 fi
+cp "$REPO_ROOT/.quartz/quartz.ts" "$QUARTZ/quartz.ts"
 (cd "$QUARTZ" && npm run --silent install-plugins)
 
 # Self-hosted fonts (no Google Fonts requests from visitors' browsers).
@@ -53,24 +52,12 @@ for f in $FONTS; do
   cp "$WORK/fonts/node_modules/@fontsource/$pkg/files/$pkg-latin-$variant.woff2" "$FONT_DIR/"
 done
 
-# 3. Quartz's front page is content/index.md, so publish the home note there.
-#    This file only exists during the build and is removed afterwards.
-if [ -e "$INDEX" ]; then
-  echo "PublicLore/index.md already exists; leaving it alone." >&2
-else
-  trap 'rm -f "$INDEX"' EXIT
-  python3 - "$HOME_NOTE" "$INDEX" <<'PY'
-import sys
-src, dst = sys.argv[1], sys.argv[2]
-text = open(src, encoding="utf-8").read()
-title = "title: The HIEROPHANT Project\n"
-if text.startswith("---\n"):
-    text = "---\n" + title + text[4:]
-else:
-    text = "---\n" + title + "---\n" + text
-open(dst, "w", encoding="utf-8").write(text)
-PY
-fi
+# 3. Front page and section pages. stage.py writes temporary index.md files
+#    into PublicLore (listed in $CREATED); they are deleted when the build ends.
+CREATED="$WORK/created.txt"
+cleanup() { if [ -f "$CREATED" ]; then while IFS= read -r f; do rm -f "$f"; done < "$CREATED"; rm -f "$CREATED"; fi; }
+trap cleanup EXIT
+python3 "$REPO_ROOT/.quartz/stage.py" "$CONTENT" "$CREATED"
 
 # 4. Build straight from PublicLore so page dates come from git history.
 (cd "$QUARTZ" && npx quartz build -d "$CONTENT" -o "$QUARTZ/public")

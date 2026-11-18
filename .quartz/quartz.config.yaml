@@ -14,8 +14,9 @@ configuration:
     - "**/desktop.ini"
     - "**/.gitignore"
     - ".obsidian"
-    # The home note is published as the front page (index.md) by build.sh
-    - "The HIEROPHANT Project - HOME/The HIEROPHANT Project.md"
+    # These become the front page and section pages (see .quartz/stage.py)
+    - "Home.md"
+    - "**/DEFN - *.md"
   theme:
     fontOrigin: local   # fonts are self-hosted, see .quartz/custom.scss
     cdnCaching: true
@@ -23,27 +24,28 @@ configuration:
       header: IBM Plex Sans Condensed
       body: IBM Plex Sans
       code: IBM Plex Mono
+    # Colours taken from the Pleroma flag: maroon field, parchment-gold wreath.
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#f3eee3"
+        lightgray: "#ddd3c1"
+        gray: "#9d9284"
+        darkgray: "#3a2f31"
+        dark: "#22161a"
+        secondary: "#6e1f2e"
+        tertiary: "#9a7a3a"
+        highlight: rgba(110, 31, 46, 0.07)
+        textHighlight: "#e2cf8a88"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#141013"
+        lightgray: "#2e2428"
+        gray: "#74676b"
+        darkgray: "#d3cabb"
+        dark: "#eee5d1"
+        secondary: "#cbb987"
+        tertiary: "#b8606d"
+        highlight: rgba(203, 185, 135, 0.08)
+        textHighlight: "#7a2a3a99"
   links:
     markdownLinkResolution: shortest
   contentIndex:
@@ -135,7 +137,7 @@ plugins:
     enabled: true
     layout:
       position: right
-      priority: 10
+      priority: 40
   - source: "@quartz-community/search"
     enabled: true
     layout:
@@ -198,8 +200,7 @@ plugins:
   - source: "@quartz-community/footer"
     enabled: true
     options:
-      links:
-        Built with Quartz: https://quartz.jzhao.xyz
+      links: {}
     layout:
       position: footer
       priority: 50
@@ -226,7 +227,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
     order: 5
     layout:
       position: beforeBody
