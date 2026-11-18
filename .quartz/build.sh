@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+# Builds the PublicLore folder into a static website with Quartz.
+# Used by .github/workflows/deploy-wiki.yml; you can also run it yourself
+# (needs Node 22+ and git): bash .quartz/build.sh
+# Output: .quartz/.work/quartz/public
+set -euo pipefail
+
+QUARTZ_VERSION="v5.1.0"   # pinned so an upstream release can't break the site; bump deliberately
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+WORK="$REPO_ROOT/.quartz/.work"
+QUARTZ="$WORK/quartz"
+CONTENT="$REPO_ROOT/PublicLore"
+HOME_NOTE="$CONTENT/The HIEROPHANT Project - HOME/The HIEROPHANT Project.md"
+INDEX="$CONTENT/index.md"
+
+# 1. Get Quartz (cached between local runs).
+if [ ! -d "$QUARTZ/.git" ] || [ "$(git -C "$QUARTZ" describe --tags 2>/dev/null)" != "$QUARTZ_VERSION" ]; then
+  rm -rf "$QUARTZ"
+  mkdir -p "$WORK"
+  git clone --quiet --depth 1 --branch "$QUARTZ_VERSION" https://github.com/jackyzha0/quartz.git "$QUARTZ"
+  (cd "$QUARTZ" && npm ci --no-audit --no-fund)
+fi
+
+# 2. Drop in our settings and styles.
+cp "$REPO_ROOT/.quartz/quartz.config.yaml" "$QUARTZ/quartz.config.yaml"
+if [ -f "$REPO_ROOT/.quartz/custom.scss" ]; then
+  cp "$REPO_ROOT/.quartz/custom.scss" "$QUARTZ/quartz/styles/custom.scss"
+fi
+(cd "$QUARTZ" && npm run --silent install-plugins)
+
+# 3. Quartz's front page is content/index.md, so publish the home note there.
+#    This file only exists during the build and is removed afterwards.
+if [ -e "$INDEX" ]; then
+  echo "PublicLore/index.md already exists; leaving it alone." >&2
+else
+  trap 'rm -f "$INDEX"' EXIT
+  python3 - "$HOME_NOTE" "$INDEX" <<'PY'
+import sys
+src, dst = sys.argv[1], sys.argv[2]
+text = open(src, encoding="utf-8").read()
+title = "title: The HIEROPHANT Project\n"
+if text.startswith("---\n"):
+    text = "---\n" + title + text[4:]
+else:
+    text = "---\n" + title + "---\n" + text
+open(dst, "w", encoding="utf-8").write(text)
+PY
+fi
+
+# 4. Build straight from PublicLore so page dates come from git history.
+(cd "$QUARTZ" && npx quartz build -d "$CONTENT" -o "$QUARTZ/public")
+echo "Built site: $QUARTZ/public"
