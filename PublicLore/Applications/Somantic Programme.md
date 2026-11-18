@@ -6,12 +6,12 @@ reapply_days: 14
 review_channel: "1572446987221999687"
 reviewer_role: 1533579914240987260, 1533579914240987259
 ---
-> **IMPERIAL REGISTRY OF SOMANTIC STATUS: FORM S-1**
-> Issued under the authority of the Senate of Imperia. All declarations are recorded and subject to verification by the Urban Prefecture. Falsification constitutes an offence against the State.
+> **IMPERIAN REGISTRY OF SOMANTIC STATUS: FORM S-1**
+> Issued under the authority of the Senate of Imperia. All declarations are recorded and subject to verification by the FERRAPHEX Urban Prefecture, following distribution by the Magistrate's Hall. Falsification constitutes an offence against the State.
 
 Apart from the first and last sections, this application is written **in character**, as your OC filling in their own registration form. It tests your writing and your understanding of Pleroma. Quality matters more than speed, and every answer must be your own work.
 
-## Out of character
+## Out of Character
 - What timezone are you in? {short}
 - Briefly describe your roleplay experience: communities, styles of roleplay, and how long you've been doing it. {long 200}
 
@@ -26,14 +26,12 @@ Complete this section as your character.
 ## Section II: Declaration of Intent
 - Somantic status requires you to surrender your freedom of movement and place your life under the jurisdiction of Imperia. In your own words, explain why you accept these terms. {long 500}
 - Describe, as you would to a registrar, what life in Pleroma has been like for you so far. {long 600}
-- What does the Pleromian Union of Labour mean to you, and what do you expect of it in return for your service? {long 400}
+- What does Pleroma mean to you, and what do you expect of it in return for your service? {long 400}
 
-## Section III: Supplementary Statements
+## Section III: Supplementary Creative Statements
 The Registry asks the following of every applicant. Answer honestly.
 
-- Your first morning in your assigned dormitory begins with the city broadcast. Describe the next few minutes. Show the city through what you notice rather than explaining it. {long 250-600 words}
-- Recount an encounter you witnessed in the ration line. Respond to the passage below, continuing the scene and leaving room for the other person to act. {long 150-400 words}
-  *The ration line had stopped moving again. The woman ahead of you turns, eyes flicking to the officer by the gate, and presses something small and cold into your palm. "Don't look at it," she breathes. "Not here."*
+- Your first morning in your assigned residential complex begins with the city broadcast. Describe the next few minutes. Show the city through what you notice rather than explaining it. {long 250-600 words}
 
 ## Out of character: confirmation
 - I confirm that all writing in this application is my own and not AI-generated. {check}

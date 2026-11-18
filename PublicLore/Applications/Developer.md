@@ -6,7 +6,7 @@ reapply_days: 30
 review_channel: "1572444492059906178"
 reviewer_role: "1536512018352181349"
 ---
-The development team builds Pleroma in Roblox. Applicants should be able to show previous work. This application is out of character.
+The development team builds FERRAPHEX, and Pleroma, in Roblox. Applicants should be able to show previous work. This application is out of character.
 
 ## About you
 - Which development track are you applying for? {choice: Building | Scripting | Assets / Modelling | UI / Graphic design | Other}

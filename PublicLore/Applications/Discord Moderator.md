@@ -6,7 +6,7 @@ reapply_days: 30
 review_channel: "1572444492059906178"
 reviewer_role: "1536511074952552448"
 ---
-Moderators keep the Project's Discord server safe, welcoming and on-topic. They enforce the community regulations fairly, handle reports and support new members. This application is entirely out of character.
+Moderators keep the Project's Discord server safe, welcoming and on-topic. They enforce the community regulations fairly, handle reports and support new members. This application is entirely out of character. Those wishing to become In-Game Moderators must first be a long-time Discord Moderator.
 
 ## About you
 - What timezone are you in, and roughly when are you usually active? {short}

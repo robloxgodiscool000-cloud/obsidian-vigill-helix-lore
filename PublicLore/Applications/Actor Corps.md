@@ -6,7 +6,7 @@ reapply_days: 30
 review_channel: "1572444492059906178"
 reviewer_role: "1536512509580808212"
 ---
-The Actor Corps play the Project's **Actor Characters**: the officials, officers and figures who bring Pleroma's institutions to life in roleplay. Actors often take on several characters, switch between them at short notice, and play roles they may not personally like, so that other players have a world to react to.
+The Actor Corps play the Project's **Actor Characters**: the officials, officers and figures who bring Pleroma's institutions to life in roleplay. Actors often take on several characters, switch between them at short notice, and play roles they may not personally like, so that other players have a world to react to. Those wishing to become a member of the Campaign Team must first prove their skills in the Actor Corps.
 
 ## About you
 - What timezone are you in, and when are you usually available to play? {short}
@@ -19,10 +19,10 @@ The Actor Corps play the Project's **Actor Characters**: the officials, officers
 - An Actor Character's job is often to make other players' stories better rather than to win. Describe a time you set up someone else's moment, or how you would. {long 300}
 
 ## Scenes
-Answer each in character as the Actor Character described, in 100–250 words.
+Answer each in character as the Actor Character described, in 200-700 words, as well as demonstrating your prose, formatting, and ability to establish a clear tone.
 
-- You are a tired Union registrar at the end of a long shift. A nervous New Folk arrives with incomplete paperwork. {long 100-250 words}
-- You are a Sentinel of the Urban Prefecture. A citizen you stop at a checkpoint is clearly hiding something, and the street around you is watching. {long 100-250 words}
+- You are a tired Magistrate Hall official at the end of a long shift. A nervous New Folk arrives with incomplete paperwork. {long 200-700 words}
+- You are a Sentinel of the Urban Prefecture. A Somantic you stop on the sidewalk is clearly hiding something, and the street around you is watching. {long 200-700 words}
 
 ## Confirmation
 - I confirm that all writing in this application is my own and not AI-generated. {check}
