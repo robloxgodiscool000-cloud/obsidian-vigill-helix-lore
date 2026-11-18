@@ -17,6 +17,8 @@ configuration:
     # These become the front page and section pages (see .quartz/stage.py)
     - "Home.md"
     - "**/DEFN - *.md"
+    # Application forms for the Custodian's apply site; not part of the wiki
+    - "Applications"
   theme:
     fontOrigin: local   # fonts are self-hosted, see .quartz/custom.scss
     cdnCaching: true

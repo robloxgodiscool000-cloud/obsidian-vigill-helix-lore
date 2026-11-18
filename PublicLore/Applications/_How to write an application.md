@@ -5,7 +5,7 @@ type: guide
 
 Every note in this folder whose name doesn't start with `_` is an application on
 https://apply.thehierophantproject.wiki. The Custodian checks for changes every
-5 minutes after you sync.
+5 minutes after you sync. This folder is never published on the wiki.
 
 ## Properties (the block at the top)
 
