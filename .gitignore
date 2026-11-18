@@ -10,3 +10,6 @@ node_modules/
 # or the GitHub Sync plugin will publish it to this public repo:
 Lore Team Board/
 VIGILL HELIX OLD LORE DUMP/
+
+# Windows / Google Drive folder settings files
+desktop.ini
