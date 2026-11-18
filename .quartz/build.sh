@@ -33,6 +33,7 @@ if [ -f "$REPO_ROOT/.quartz/custom.scss" ]; then
   cp "$REPO_ROOT/.quartz/custom.scss" "$QUARTZ/quartz/styles/custom.scss"
 fi
 cp "$REPO_ROOT/.quartz/quartz.ts" "$QUARTZ/quartz.ts"
+cp "$REPO_ROOT/.quartz/static/"* "$QUARTZ/quartz/static/"   # icon, logo, banner
 (cd "$QUARTZ" && npm run --silent install-plugins)
 
 # Self-hosted fonts (no Google Fonts requests from visitors' browsers).

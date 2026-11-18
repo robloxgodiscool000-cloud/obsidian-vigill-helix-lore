@@ -1,6 +1,7 @@
 @use "./variables.scss" as *;
 
-// Custom styles for vigillhelix.wiki. Copied into Quartz by .quartz/build.sh.
+// Custom styles for the HIEROPHANT Project site. Copied into Quartz by .quartz/build.sh.
+// Plain, Notion-like look: neutral greys, coloured tags only where they label something.
 
 // ---------- Fonts ----------
 // Served from the site itself (copied in by build.sh), so pages look right
@@ -28,8 +29,8 @@ $fonts: (
 
 // Always keep a sans-serif fallback behind the chosen fonts.
 :root {
-  --titleFont: "IBM Plex Sans Condensed", system-ui, "Segoe UI", Roboto, Arial, sans-serif;
-  --headerFont: "IBM Plex Sans Condensed", system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  --titleFont: "IBM Plex Sans", system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  --headerFont: "IBM Plex Sans", system-ui, "Segoe UI", Roboto, Arial, sans-serif;
   --bodyFont: "IBM Plex Sans", system-ui, "Segoe UI", Roboto, Arial, sans-serif;
   --codeFont: "IBM Plex Mono", ui-monospace, Consolas, monospace;
   --font-text: var(--bodyFont);
@@ -40,93 +41,104 @@ $fonts: (
   --h4-font: var(--headerFont);
   --h5-font: var(--headerFont);
   --h6-font: var(--headerFont);
+
+  // Notion-style tag colours (text, background) for dark mode
+  --tag-grey: #9b9b9b;   --tag-grey-bg: rgba(155, 155, 155, 0.12);
+  --tag-brown: #ba856f;  --tag-brown-bg: rgba(186, 133, 111, 0.13);
+  --tag-orange: #c77d48; --tag-orange-bg: rgba(199, 125, 72, 0.13);
+  --tag-green: #529e72;  --tag-green-bg: rgba(82, 158, 114, 0.13);
+  --tag-blue: #5e87c9;   --tag-blue-bg: rgba(94, 135, 201, 0.13);
+  --tag-purple: #9d68d3; --tag-purple-bg: rgba(157, 104, 211, 0.13);
+  --tag-red: #df5452;    --tag-red-bg: rgba(223, 84, 82, 0.12);
 }
 
-// ---------- Look: an official state archive ----------
+:root[saved-theme="light"] {
+  --tag-grey: #787774;   --tag-grey-bg: rgba(120, 119, 116, 0.09);
+  --tag-brown: #9f6b53;  --tag-brown-bg: rgba(159, 107, 83, 0.09);
+  --tag-orange: #d9730d; --tag-orange-bg: rgba(217, 115, 13, 0.09);
+  --tag-green: #448361;  --tag-green-bg: rgba(68, 131, 97, 0.09);
+  --tag-blue: #337ea9;   --tag-blue-bg: rgba(51, 126, 169, 0.09);
+  --tag-purple: #9065b0; --tag-purple-bg: rgba(144, 101, 176, 0.09);
+  --tag-red: #d44c47;    --tag-red-bg: rgba(212, 76, 71, 0.09);
+}
 
-// Site title in the sidebar
+// ---------- General ----------
+
 .page-title,
 .page-title a {
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-size: 1.55rem;
-  line-height: 1.15;
+  font-size: 1.35rem;
+  line-height: 1.2;
 }
 
-// Page titles and section headings
+// Sierpinski triangle beside the site title in the sidebar
+.page-title a::before {
+  content: "";
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  margin-right: 0.45em;
+  vertical-align: -0.12em;
+  background-color: currentColor;
+  -webkit-mask: url("static/sierpinski.svg") center / contain no-repeat;
+  mask: url("static/sierpinski.svg") center / contain no-repeat;
+}
+
 .article-title {
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  border-bottom: 2px solid var(--secondary);
-  padding-bottom: 0.35em;
+  font-weight: 700;
 }
 
 article h2 {
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 1.3rem;
-  border-bottom: 1px solid var(--lightgray);
-  padding-bottom: 0.25em;
-  margin-top: 2.2rem;
+  margin-top: 2rem;
 }
 
-article h3 {
-  letter-spacing: 0.02em;
-}
-
-// Date and reading time, styled like a record stamp
 .content-meta {
-  font-family: var(--codeFont);
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
   color: var(--gray);
 }
 
-// Breadcrumbs and explorer folder names in small caps
-.breadcrumb-container,
-.explorer .folder-container > div > a,
-.explorer .folder-container > div > button span {
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 0.85rem;
+// Links: plain text with a soft underline, like Notion
+a.internal {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  text-decoration: underline;
+  text-decoration-color: var(--lightgray);
+  text-underline-offset: 3px;
 }
 
-// Callouts (> [!summary] etc.) as official notices: square, gold rule, no tint
+a.internal:hover {
+  text-decoration-color: var(--secondary);
+}
+
+// Callouts: flat grey boxes
 .callout {
-  border-radius: 0;
-  border: 1px solid var(--lightgray);
-  border-left: 4px solid var(--secondary);
+  border-radius: 4px;
+  border: none;
   background-color: var(--highlight);
 }
 
 .callout .callout-title {
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-family: var(--headerFont);
-  font-size: 0.9rem;
+  font-family: var(--bodyFont);
 }
 
 .callout[data-callout="summary"],
 .callout[data-callout="abstract"],
 .callout[data-callout="tldr"],
-.callout[data-callout="quote"] {
-  --color: var(--secondary);
-  --border: var(--secondary);
+.callout[data-callout="quote"],
+.callout[data-callout="note"],
+.callout[data-callout="info"] {
+  --color: var(--dark);
+  --border: transparent;
   --bg: var(--highlight);
 }
 
-// Tables
 article table {
   border-collapse: collapse;
   width: 100%;
 }
 
 article th {
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-size: 0.8rem;
-  border-bottom: 2px solid var(--secondary);
+  font-weight: 600;
+  border-bottom: 1px solid var(--lightgray);
 }
 
 article td {
@@ -134,8 +146,202 @@ article td {
   vertical-align: top;
 }
 
-// Images: framed, never wider than the column
 article img {
-  border: 1px solid var(--lightgray);
+  border-radius: 4px;
   max-width: 100%;
+}
+
+// ---------- Front page ----------
+
+// The front page is a full-width hub with no sidebars (like a Notion page)
+body[data-slug="index"] {
+  #quartz-body {
+    grid-template-columns: 1fr !important;
+    grid-template-areas: "grid-center" !important;
+  }
+  .sidebar.left,
+  .sidebar.right,
+  .page-header .article-title,
+  .page-header .content-meta,
+  .page-header .breadcrumb-container {
+    display: none !important;
+  }
+  .center {
+    width: 100% !important;
+    max-width: 1000px !important;
+    min-width: 0 !important;
+    margin: 0 auto !important;
+    padding: 0 1.5rem !important;
+    box-sizing: border-box;
+  }
+  .page-header {
+    margin-top: 0 !important;
+  }
+  footer {
+    display: none;
+  }
+}
+
+.hub {
+  position: relative;
+  margin-top: 0;
+}
+
+.hub-cover {
+  height: 220px;
+  margin: 0 calc(50% - 50vw);
+  margin-top: -1rem;
+  background: url("static/banner.svg") center / cover no-repeat;
+}
+
+// Round icon overlapping the cover, holding the Sierpinski triangle
+.hub-icon {
+  display: block;
+  position: relative;
+  width: 96px;
+  height: 96px;
+  margin-top: -48px;
+  border-radius: 50%;
+  background: var(--light);
+  box-shadow: 0 0 0 1px var(--lightgray);
+}
+
+.hub-icon::after {
+  content: "";
+  position: absolute;
+  inset: 14px 12px 18px 12px;
+  background-color: var(--dark);
+  -webkit-mask: url("static/sierpinski.svg") center / contain no-repeat;
+  mask: url("static/sierpinski.svg") center / contain no-repeat;
+}
+
+.hub-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin: 0.6rem 0 0.4rem;
+}
+
+.hub-heading {
+  font-size: 1.25rem !important;
+  font-weight: 600;
+  margin: 2.2rem 0 0.8rem !important;
+  border-top: 1px solid var(--lightgray);
+  padding-top: 1.6rem;
+}
+
+.hub-spaced {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-weight: 500;
+}
+
+.hub-featured {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.hub-card {
+  display: flex;
+  align-items: flex-end;
+  min-height: 110px;
+  padding: 14px 16px !important;
+  border-radius: 6px !important;
+  background: var(--highlight) !important;
+  border: 1px solid var(--lightgray);
+  color: var(--dark) !important;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-decoration: none !important;
+  transition: background-color 0.15s ease;
+}
+
+.hub-card:hover {
+  background: var(--lightgray);
+}
+
+.hub-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  align-items: start;
+}
+
+.hub-column {
+  border-radius: 6px;
+  padding: 8px;
+  background: var(--tag-bg);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+@each $c in grey, brown, orange, green, blue, purple, red {
+  .hub-column.tag-#{$c} {
+    --tag: var(--tag-#{$c});
+    --tag-bg: var(--tag-#{$c}-bg);
+  }
+}
+
+.hub-tag {
+  display: inline-block;
+  padding: 1px 8px !important;
+  border-radius: 10px !important;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--dark) !important;
+  background: var(--tag-bg) !important;
+  text-decoration: none !important;
+}
+
+.hub-tag::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--tag);
+  margin-right: 6px;
+  vertical-align: 1px;
+}
+
+.hub-count {
+  font-size: 0.75rem;
+  color: var(--tag);
+}
+
+.hub-item {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 8px 10px !important;
+  border-radius: 4px !important;
+  background: var(--tag-bg) !important;
+  color: var(--dark) !important;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-decoration: none !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.hub-item:hover {
+  filter: brightness(1.25);
+}
+
+.hub-people {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 18px;
+  margin-bottom: 4rem;
+}
+
+.hub-person {
+  font-weight: 600;
+  font-style: italic;
 }
