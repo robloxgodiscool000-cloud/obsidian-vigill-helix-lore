@@ -23,6 +23,14 @@ fi
 
 # 2. Drop in our settings and styles.
 cp "$REPO_ROOT/.quartz/quartz.config.yaml" "$QUARTZ/quartz.config.yaml"
+# The site's address. The workflow sets SITE_BASE_URL from GitHub Pages
+# (e.g. user.github.io/repo before the custom domain is set, vigillhelix.wiki after),
+# so links work under either address.
+if [ -n "${SITE_BASE_URL:-}" ]; then
+  base="${SITE_BASE_URL#http://}"; base="${base#https://}"; base="${base%/}"
+  sed -i "s|^  baseUrl: .*|  baseUrl: $base|" "$QUARTZ/quartz.config.yaml"
+  echo "Using baseUrl: $base"
+fi
 if [ -f "$REPO_ROOT/.quartz/custom.scss" ]; then
   cp "$REPO_ROOT/.quartz/custom.scss" "$QUARTZ/quartz/styles/custom.scss"
 fi
