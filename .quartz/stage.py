@@ -123,8 +123,11 @@ def find_note(name):
 
 
 # ---------- Section pages ----------
+# Folders that are not wiki sections
+NOT_SECTIONS = {"images", "Applications"}
+
 folders = [n for n in sorted(os.listdir(content))
-           if os.path.isdir(os.path.join(content, n)) and not n.startswith(".") and n != "images"]
+           if os.path.isdir(os.path.join(content, n)) and not n.startswith(".") and n not in NOT_SECTIONS]
 for name in folders:
     defn = os.path.join(content, name, f"DEFN - {name}.md")
     text = open(defn, encoding="utf-8").read() if os.path.exists(defn) else ""
