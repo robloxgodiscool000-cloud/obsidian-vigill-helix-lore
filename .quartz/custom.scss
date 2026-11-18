@@ -187,11 +187,15 @@ body[data-slug="index"] {
   margin-top: 0;
 }
 
+// Cover: Bocklin's "Isle of the Dead" (downloaded by build.sh), with the
+// triangle pattern underneath in case it's missing.
 .hub-cover {
-  height: 220px;
+  height: 280px;
   margin: 0 calc(50% - 50vw);
   margin-top: -1rem;
-  background: url("static/banner.svg") center / cover no-repeat;
+  background:
+    url("static/cover.jpg") center 82% / cover no-repeat,   // keeps the boat and shoreline in view
+    url("static/banner.svg") center / cover no-repeat;
 }
 
 // Round icon overlapping the cover, holding the Sierpinski triangle
@@ -338,7 +342,13 @@ body[data-slug="index"] {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 18px;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+.hub-credit {
+  font-size: 0.75rem;
+  color: var(--gray);
+  margin-bottom: 3rem;
 }
 
 .hub-person {

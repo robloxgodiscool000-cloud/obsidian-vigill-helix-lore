@@ -34,6 +34,16 @@ if [ -f "$REPO_ROOT/.quartz/custom.scss" ]; then
 fi
 cp "$REPO_ROOT/.quartz/quartz.ts" "$QUARTZ/quartz.ts"
 cp "$REPO_ROOT/.quartz/static/"* "$QUARTZ/quartz/static/"   # icon, logo, banner
+
+# Front-page cover: Arnold Bocklin, "Isle of the Dead" (first version, 1880,
+# Kunstmuseum Basel), public domain, fetched from Wikimedia Commons. If the
+# download fails the site still builds and shows the triangle pattern instead.
+COVER_URL="https://commons.wikimedia.org/wiki/Special:FilePath/Arnold_B%C3%B6cklin_-_Die_Toteninsel_I_(Basel,_Kunstmuseum).jpg?width=1920"
+if [ ! -s "$WORK/cover.jpg" ]; then
+  curl -fsSL --max-time 60 -A "HierophantWikiBuild/1.0 (https://github.com/robloxgodiscool000-cloud/obsidian-vigill-helix-lore)" \
+    "$COVER_URL" -o "$WORK/cover.jpg" || { echo "Cover download failed; using the pattern banner." >&2; rm -f "$WORK/cover.jpg"; }
+fi
+[ -s "$WORK/cover.jpg" ] && cp "$WORK/cover.jpg" "$QUARTZ/quartz/static/cover.jpg"
 (cd "$QUARTZ" && npm run --silent install-plugins)
 
 # Self-hosted fonts (no Google Fonts requests from visitors' browsers).
