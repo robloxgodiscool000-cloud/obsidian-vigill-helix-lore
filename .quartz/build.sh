@@ -56,8 +56,28 @@ done
 # 3. Front page and section pages. stage.py writes temporary index.md files
 #    into PublicLore (listed in $CREATED); they are deleted when the build ends.
 CREATED="$WORK/created.txt"
-cleanup() { if [ -f "$CREATED" ]; then while IFS= read -r f; do rm -f "$f"; done < "$CREATED"; rm -f "$CREATED"; fi; }
+CAMPAIGN_SRC="${CAMPAIGN_SRC:-$REPO_ROOT/.campaigns}"   # checkout of hierophant-campaigns
+CAMPAIGN_DST="$CONTENT/Campaigns"
+COPIED_CAMPAIGNS=""
+cleanup() {
+  if [ -f "$CREATED" ]; then while IFS= read -r f; do rm -f "$f"; done < "$CREATED"; rm -f "$CREATED"; fi
+  if [ -n "$COPIED_CAMPAIGNS" ]; then rm -rf "$CAMPAIGN_DST"; fi
+}
 trap cleanup EXIT
+
+# Campaign pages from the campaign team's repo become PublicLore/Campaigns for
+# this build only. Every .md at its top level is published except README.md;
+# an images/ folder is copied too. Templates and anything else are left out.
+if [ -d "$CAMPAIGN_SRC" ]; then
+  if [ -e "$CAMPAIGN_DST" ]; then
+    echo "PublicLore/Campaigns already exists in the vault; not adding campaign pages." >&2
+  else
+    mkdir -p "$CAMPAIGN_DST"; COPIED_CAMPAIGNS=1
+    find "$CAMPAIGN_SRC" -maxdepth 1 -type f -name '*.md' ! -name 'README.md' -exec cp {} "$CAMPAIGN_DST/" \;
+    [ -d "$CAMPAIGN_SRC/images" ] && cp -r "$CAMPAIGN_SRC/images" "$CAMPAIGN_DST/images"
+    echo "Added $(find "$CAMPAIGN_DST" -maxdepth 1 -name '*.md' | wc -l) campaign pages."
+  fi
+fi
 python3 "$REPO_ROOT/.quartz/stage.py" "$CONTENT" "$CREATED"
 
 # 4. Build straight from PublicLore so page dates come from git history.

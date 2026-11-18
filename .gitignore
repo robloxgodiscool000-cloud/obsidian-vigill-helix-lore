@@ -13,3 +13,6 @@ VIGILL HELIX OLD LORE DUMP/
 
 # Windows / Google Drive folder settings files
 desktop.ini
+
+# Campaign pages checked out during a build (see .quartz/build.sh)
+.campaigns/
