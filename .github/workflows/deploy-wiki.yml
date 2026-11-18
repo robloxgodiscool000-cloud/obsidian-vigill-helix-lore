@@ -8,6 +8,8 @@ on:
       - '.quartz/**'
       - '.github/workflows/deploy-wiki.yml'
   workflow_dispatch: {}   # "Run workflow" button in the Actions tab
+  schedule:
+    - cron: '23 * * * *'  # hourly, to pick up campaign-team edits (see below)
 
 permissions:
   contents: read
@@ -26,6 +28,15 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0   # full history, so pages show real "last edited" dates
+
+      # Campaign pages live in their own repo so the campaign team can edit
+      # them without access to this one. If it's missing, the site still builds.
+      - name: Checkout campaign pages
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          repository: robloxgodiscool000-cloud/hierophant-campaigns
+          path: .campaigns
 
       - name: Set up Node
         uses: actions/setup-node@v4
