@@ -3,6 +3,8 @@ title: Somantic Programme Application
 summary: Register your character for Somantic status in Monad City FERRAPHEX.
 open: true
 reapply_days: 14
+review_channel: ""
+reviewer_role: ""
 ---
 > **IMPERIAL REGISTRY OF SOMANTIC STATUS: FORM S-1**
 > Issued under the authority of the Senate of Imperia. All declarations are recorded and subject to verification by the Urban Prefecture. Falsification constitutes an offence against the State.

@@ -13,7 +13,10 @@ https://apply.thehierophantproject.wiki. The Custodian checks for changes every
 - `summary`: one line under the title in the list of applications.
 - `open`: `true` to accept applications, `false` to close it. A closed application stays in this folder and keeps its past submissions.
 - `reapply_days`: how long someone must wait after being denied before applying again. The default is 14.
-- `reviewer_role`: optional. The Discord role ID allowed to accept or deny this application. If it's missing, the default reviewer role is used.
+- `review_channel`: the Discord channel ID where this application's submissions are posted for staff. It can be in any server the Custodian has joined, so Somantic applications can go to a separate server.
+- `reviewer_role`: the role ID allowed to accept or deny this application. It must be a role in the same server as `review_channel`. Anyone with Manage Server in that server can also review.
+
+To copy an ID, turn on Developer Mode (Discord Settings → Advanced), then right-click the channel or role → **Copy ID**. Paste it between the quotes, for example `review_channel: "1234567890123456789"`.
 
 ## The body
 

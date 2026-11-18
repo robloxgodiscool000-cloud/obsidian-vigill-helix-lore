@@ -3,6 +3,8 @@ title: Discord Moderator Application
 summary: Help keep the Project's Discord server safe and welcoming.
 open: true
 reapply_days: 30
+review_channel: ""
+reviewer_role: ""
 ---
 Moderators keep the Project's Discord server safe, welcoming and on-topic. They enforce the community regulations fairly, handle reports and support new members. This application is entirely out of character.
 
