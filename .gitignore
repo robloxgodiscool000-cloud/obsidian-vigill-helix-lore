@@ -1,0 +1,12 @@
+# Plugin settings can hold access tokens - never commit them
+.obsidian/plugins/*/data.json
+.obsidian-eastern/plugins/*/data.json
+
+# Quartz build cache and output (see .quartz/build.sh)
+.quartz/.work/
+node_modules/
+
+# Anything private in the vault must be listed here,
+# or the GitHub Sync plugin will publish it to this public repo:
+Lore Team Board/
+VIGILL HELIX OLD LORE DUMP/

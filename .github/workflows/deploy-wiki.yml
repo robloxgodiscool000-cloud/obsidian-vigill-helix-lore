@@ -1,0 +1,52 @@
+name: Build and deploy wiki
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'PublicLore/**'
+      - '.quartz/**'
+      - '.github/workflows/deploy-wiki.yml'
+  workflow_dispatch: {}   # "Run workflow" button in the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history, so pages show real "last edited" dates
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Build site with Quartz
+        run: bash .quartz/build.sh
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .quartz/.work/quartz/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
