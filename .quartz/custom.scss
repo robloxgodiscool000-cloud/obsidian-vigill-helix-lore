@@ -357,3 +357,39 @@ body[data-slug="index"] {
   font-weight: 600;
   font-style: italic;
 }
+
+// Community links under the intro (Home.md "links" property)
+.hub-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 10px;
+  margin: 1.4rem 0 0.4rem;
+}
+
+.hub-link {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px !important;
+  border-radius: 6px !important;
+  background: var(--highlight) !important;
+  border: 1px solid var(--lightgray);
+  color: var(--dark) !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none !important;
+  transition: background-color 0.15s ease;
+}
+
+.hub-link:hover {
+  background: var(--lightgray) !important;
+}
+
+.hub-link-arrow {
+  color: var(--gray);
+}
+
+// Quartz adds its own external-link icon; the arrow above replaces it
+.hub-link .external-icon {
+  display: none;
+}
