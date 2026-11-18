@@ -3,8 +3,8 @@ title: Actor Corps Application
 summary: Play the Project's Actor Characters, the faces of Pleroma's institutions.
 open: true
 reapply_days: 30
-review_channel: ""
-reviewer_role: ""
+review_channel: "1572444492059906178"
+reviewer_role: "1536512509580808212"
 ---
 The Actor Corps play the Project's **Actor Characters**: the officials, officers and figures who bring Pleroma's institutions to life in roleplay. Actors often take on several characters, switch between them at short notice, and play roles they may not personally like, so that other players have a world to react to.
 
