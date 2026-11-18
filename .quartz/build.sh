@@ -10,8 +10,6 @@ REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 WORK="$REPO_ROOT/.quartz/.work"
 QUARTZ="$WORK/quartz"
 CONTENT="$REPO_ROOT/PublicLore"
-HOME_NOTE="$CONTENT/The HIEROPHANT Project - HOME/The HIEROPHANT Project.md"
-INDEX="$CONTENT/index.md"
 
 # 1. Get Quartz (cached between local runs).
 if [ ! -d "$QUARTZ/.git" ] || [ "$(git -C "$QUARTZ" describe --tags 2>/dev/null)" != "$QUARTZ_VERSION" ]; then
@@ -23,29 +21,44 @@ fi
 
 # 2. Drop in our settings and styles.
 cp "$REPO_ROOT/.quartz/quartz.config.yaml" "$QUARTZ/quartz.config.yaml"
+# The site's address. The workflow sets SITE_BASE_URL from GitHub Pages
+# (e.g. user.github.io/repo before the custom domain is set, vigillhelix.wiki after),
+# so links work under either address.
+if [ -n "${SITE_BASE_URL:-}" ]; then
+  base="${SITE_BASE_URL#http://}"; base="${base#https://}"; base="${base%/}"
+  sed -i "s|^  baseUrl: .*|  baseUrl: $base|" "$QUARTZ/quartz.config.yaml"
+  echo "Using baseUrl: $base"
+fi
 if [ -f "$REPO_ROOT/.quartz/custom.scss" ]; then
   cp "$REPO_ROOT/.quartz/custom.scss" "$QUARTZ/quartz/styles/custom.scss"
 fi
+cp "$REPO_ROOT/.quartz/quartz.ts" "$QUARTZ/quartz.ts"
+cp "$REPO_ROOT/.quartz/static/"* "$QUARTZ/quartz/static/"   # icon, logo, cover image, fallback banner
 (cd "$QUARTZ" && npm run --silent install-plugins)
 
-# 3. Quartz's front page is content/index.md, so publish the home note there.
-#    This file only exists during the build and is removed afterwards.
-if [ -e "$INDEX" ]; then
-  echo "PublicLore/index.md already exists; leaving it alone." >&2
-else
-  trap 'rm -f "$INDEX"' EXIT
-  python3 - "$HOME_NOTE" "$INDEX" <<'PY'
-import sys
-src, dst = sys.argv[1], sys.argv[2]
-text = open(src, encoding="utf-8").read()
-title = "title: The HIEROPHANT Project\n"
-if text.startswith("---\n"):
-    text = "---\n" + title + text[4:]
-else:
-    text = "---\n" + title + "---\n" + text
-open(dst, "w", encoding="utf-8").write(text)
-PY
+# Self-hosted fonts (no Google Fonts requests from visitors' browsers).
+# Must match the list in .quartz/custom.scss.
+FONTS="ibm-plex-sans/400-normal ibm-plex-sans/400-italic ibm-plex-sans/600-normal ibm-plex-sans/600-italic
+ibm-plex-sans-condensed/400-normal ibm-plex-sans-condensed/700-normal
+ibm-plex-mono/400-normal ibm-plex-mono/600-normal"
+FONT_DIR="$QUARTZ/quartz/static/fonts"
+if [ ! -d "$WORK/fonts/node_modules" ]; then
+  mkdir -p "$WORK/fonts"
+  (cd "$WORK/fonts" && npm init -y >/dev/null && npm install --no-audit --no-fund --silent \
+    @fontsource/ibm-plex-sans@5 @fontsource/ibm-plex-sans-condensed@5 @fontsource/ibm-plex-mono@5)
 fi
+mkdir -p "$FONT_DIR"
+for f in $FONTS; do
+  pkg="${f%%/*}"; variant="${f#*/}"
+  cp "$WORK/fonts/node_modules/@fontsource/$pkg/files/$pkg-latin-$variant.woff2" "$FONT_DIR/"
+done
+
+# 3. Front page and section pages. stage.py writes temporary index.md files
+#    into PublicLore (listed in $CREATED); they are deleted when the build ends.
+CREATED="$WORK/created.txt"
+cleanup() { if [ -f "$CREATED" ]; then while IFS= read -r f; do rm -f "$f"; done < "$CREATED"; rm -f "$CREATED"; fi; }
+trap cleanup EXIT
+python3 "$REPO_ROOT/.quartz/stage.py" "$CONTENT" "$CREATED"
 
 # 4. Build straight from PublicLore so page dates come from git history.
 (cd "$QUARTZ" && npx quartz build -d "$CONTENT" -o "$QUARTZ/public")
