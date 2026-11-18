@@ -9,7 +9,7 @@ configuration:
   prefetch: viewport
   analytics: null
   locale: en-GB
-  baseUrl: vigillhelix.wiki
+  baseUrl: thehierophantproject.wiki   # the build uses the live GitHub Pages address when it can
   ignorePatterns:
     - "**/desktop.ini"
     - "**/.gitignore"
