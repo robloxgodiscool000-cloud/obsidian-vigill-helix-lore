@@ -168,7 +168,7 @@ if os.path.exists(home):
         for p in people:
             parts.append(f'<div class="hub-person">{e(p)}</div>')
         parts.append('</div>')
-    parts.append('<p class="hub-credit">Cover: Arnold Böcklin, <i>Isle of the Dead</i> (1880), Kunstmuseum Basel. Public domain.</p>')
+    parts.append('<p class="hub-credit">Cover: Arnold Böcklin, <i>Isle of the Dead</i> (third version, 1883), Alte Nationalgalerie, Berlin. Public domain.</p>')
 
     fm_keep = "\n".join(l for l in fm.splitlines()
                         if not re.match(r"^(featured|contributors|title):", l) and not l.startswith((" ", "\t")))

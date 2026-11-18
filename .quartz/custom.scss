@@ -187,14 +187,14 @@ body[data-slug="index"] {
   margin-top: 0;
 }
 
-// Cover: Bocklin's "Isle of the Dead" (downloaded by build.sh), with the
+// Cover: Bocklin's "Isle of the Dead" (.quartz/static/cover.jpg), with the
 // triangle pattern underneath in case it's missing.
 .hub-cover {
-  height: 280px;
+  height: 340px;
   margin: 0 calc(50% - 50vw);
   margin-top: -1rem;
   background:
-    url("static/cover.jpg") center 82% / cover no-repeat,   // keeps the boat and shoreline in view
+    url("static/cover.jpg") center 76% / cover no-repeat,   // cypresses down to the boat
     url("static/banner.svg") center / cover no-repeat;
 }
 
